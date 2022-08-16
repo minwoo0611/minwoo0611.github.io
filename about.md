@@ -20,7 +20,7 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 
 + **M.S in IRAP Lab, Civil and Environmental Engineering (leave to SNU) / KAIST** - 2021.03.02~2021.08.27
 
-+ **Undergraduate student researcher at IRAP lab** - 2020.03.02~2021.03.01
++ **Undergraduate Student Researcher at IRAP lab** - 2020.03.02~2021.03.01
 
 + **B.S Civil and Environmental Enginnering / KAIST** - 2017.02.27~2021.02.19
 
@@ -41,7 +41,7 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 
 + **Received the development Foundation Chairman Award from KAIST** - 2021.02.19
 
-+ **Received Cum Laude grades on graduation** - 2021.02.19
++ **Received Cum Laude Grades on Graduation** - 2021.02.19
 
 + **Listed on _Dean's list_ of CEE, KAIST** - Fall semester, 2019
 
@@ -49,7 +49,7 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 
 + **Participate Bio-Digital City Workshop in Paris** - Summer semester, 2018
 
-+ **Received the second prize from KAIST Urban Design Competition 2017: Zero Energy City Design** - Fall semester, 2017
++ **Received the Second Prize from KAIST Urban Design Competition 2017: Zero Energy City Design** - Fall semester, 2017
 
 ---
 

@@ -28,11 +28,13 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 
 # **Publication** 
 
-1.  Jeongyun Kim, Seungsang Yun, **Minwoo Jung**, Ayoung Kim, Younggun Cho. **Automatic wall slant angle map generation using 3D point clouds.** ETRI Journal, 2021, 43.4: 594-602. **[[View]](https://onlinelibrary.wiley.com/doi/pdfdirect/10.4218/etrij.2021-0053)**
+1. **Minwoo Jung** and Ayoung Kim. **Pointclouds Integration from Aerial and Ground View Exploiting Normal Vector and Pose Graph Optimization**. ICRA 2022 Late Breaking Results (poster only, not published)
 
-1. Sangwoo Jung, **Minwoo Jung**, Ayoung Kim. **Map Error Measuring Mechanism Design and Algorithm Robust to Lidar Sparsity.** The Journal of Korea Robotics Society, 2021, 16.3: 189-198. **[[View]](https://koreascience.kr/article/JAKO202124553302652.pdf)**
+1.  Jeongyun Kim, Seungsang Yun, **Minwoo Jung**, Ayoung Kim, Younggun Cho. **Automatic wall slant angle map generation using 3D point clouds**. ETRI Journal, 2021, 43.4: 594-602. **[[View]](https://onlinelibrary.wiley.com/doi/pdfdirect/10.4218/etrij.2021-0053)**
 
-1. **Minwoo Jung**, Sangwoo Jung, Hyesu Jang, Ayoung Kim. **Intensity and Ambient Enhanced Lidar-Inertial SLAM for Unstructured Construction Environment.** The Journal of Korea Robotics Society, 2021, 16.3: 179-188. **[[View]](https://koreascience.kr/article/JAKO202124553299651.pdf)** **[[Code](https://github.com/minwoo0611/IA_LIO_SAM)]**
+1. Sangwoo Jung, **Minwoo Jung**, Ayoung Kim. **Map Error Measuring Mechanism Design and Algorithm Robust to Lidar Sparsity**. The Journal of Korea Robotics Society, 2021, 16.3: 189-198. **[[View]](https://koreascience.kr/article/JAKO202124553302652.pdf)**
+
+1. **Minwoo Jung**, Sangwoo Jung, Hyesu Jang, Ayoung Kim. **Intensity and Ambient Enhanced Lidar-Inertial SLAM for Unstructured Construction Environment**. The Journal of Korea Robotics Society, 2021, 16.3: 179-188. **[[View]](https://koreascience.kr/article/JAKO202124553299651.pdf)** **[[Code](https://github.com/minwoo0611/IA_LIO_SAM)]**
 
 ---
 # **Honors and Awards**
@@ -50,6 +52,12 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 + **Participate Bio-Digital City Workshop in Paris** - Summer semester, 2018
 
 + **Received the Second Prize from KAIST Urban Design Competition 2017: Zero Energy City Design** - Fall semester, 2017
+
+---
+
+#Skills
+
++ **Programming tools** - C/C++, Python, Matlab, ROS, GTSAM, Symforce, Pytorch
 
 ---
 

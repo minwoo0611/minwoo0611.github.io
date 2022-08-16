@@ -9,7 +9,7 @@ check the [lastest news](https://minwoo0611.github.io/lastest/)!
 
 # **About Me** 
 
-I obtained B.S in Consturction and Environmental Enginnering(CEE) at KAIST, South Korea. Now, I am pursuing M.S advised by Prof. [Ayoung Kim](https://ayoungk.github.io/) in the [RPM lab](https://rpm.snu.ac.kr/), Department of Mechanical Engineering, SNU(Seoul National University).
+I obtained B.S in Civil and Environmental Enginnering(CEE) at KAIST, South Korea. Now, I am pursuing M.S advised by Prof. [Ayoung Kim](https://ayoungk.github.io/) in the [RPM lab](https://rpm.snu.ac.kr/), Department of Mechanical Engineering, SNU(Seoul National University).
 
 My research topics are related with LiDAR sensor such as simultaneous localization and mapping(SLAM) and sensor fusions.
 

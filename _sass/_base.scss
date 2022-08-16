@@ -1,62 +1,70 @@
-body{
-    overflow-x: scroll;
+// Body resets
+//
+// Update the foundational and global aspects of the page.
+
+* {
+  box-sizing: border-box;
 }
 
-.fork{
-    position: fixed;
-    top: 0;
-    right: 0;
+body {
+  margin: 0;
+  font-family: var(--body-font);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+  color: var(--body-color);
+  background-color: var(--body-bg);
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
 }
 
-.pagination{
-    text-align: center;
+// No `:visited` state is required by default (browsers will use `a`)
+a {
+  color: var(--link-color);
+
+  // `:focus` is linked to `:hover` for basic accessibility
+  &:hover,
+  &:focus {
+    color: var(--link-hover-color);
+  }
+
+  strong {
+    color: inherit;
+  }
 }
 
-.sidebar{
-    position: fixed;
-    top: 0;
-    left:0;
-    width: 400px;
-    height: 100%;
-    background: #2d3436;
-    text-align: center;
-    color: $text-color;
-    z-index: 888;
+img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: var(--spacer);
+  border-radius: var(--border-radius);
 }
 
-.blog-post h3{
-    font-size: 10px;
-    opacity: 0.2;
+table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 0 solid var(--border-color);
+  border-collapse: collapse;
 }
 
-.social-media ul{
-    list-style: none;
+td,
+th {
+  padding: .25rem .5rem;
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 1px;
 }
 
-.social-media li{
-    display: inline-block;
-    font-size: 20px;
+th {
+  text-align: left;
 }
 
-.content{
-    position: relative;
-    left: 400px;
-    width: calc(100% - 400px);
+thead th {
+  border-bottom-color: currentColor;
 }
 
-a{
-    color: #e74c3c;
-    text-decoration: none;
-
-    &:hover{
-        color: $brand-color;
-        text-decoration: underline;
-    }
-}
-
-footer{
-    text-transform: uppercase;
-    bottom: 0;
-    position: static;
-    text-align: center;
+mark {
+  padding: .15rem;
+  background-color: var(--yellow-100);
+  border-radius: .125rem;
 }

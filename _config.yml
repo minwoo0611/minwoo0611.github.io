@@ -1,33 +1,59 @@
-title: Atlas Jekyll Theme
-desciption: >
-  A jekyll theme for personal website.
-email: yourusername@gmail.com
-baseurl: "/atlas-jekyll-theme" # the subpath of your site, e.g. /blog
-#replace nrdybhu1.github.io with your domainname.com
-url: "https://nrdybhu1.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  Jekyll
-markdown: kramdown
-page_excerpts: true
-favicon: "/img/atlas.png"
-collections:
-  posts:
-    permalink: "/blog/:title:output_ext"
-    output: true
-defaults:
-- scope:
-    path: _posts
-    type: posts
-- scope:
-    path: ''
-  values:
-    image: "/img/preview.png"
-plugins:
-- jekyll-avatar
-- jekyll-feed
-- jekyll-redirect-from
-- jemoji
-- jekyll-paginate
-
+# Setup
+title: Not Pure Poole
+description: A simple, beautiful, and powerful Jekyll theme for blogs
+url: https://vszhub.github.io
+avatar: /avatar.jpeg
 paginate: 5
-paginate_path: "/blog/page-:num/"
+permalink: pretty
+cover_image: /bg.jpeg
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - scripts/
+  - not-pure-poole.gemspec
+
+# Optimize Jekyl SEO Tag
+twitter:
+  username: vszhub
+  card: summary
+logo: logo.png
+social:
+  name: Songzi Vong
+  links:
+    - https://twitter.com/vszhub
+    - https://github.com/vszhub
+google_site_verification: xxxxx
+lang: en
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# google_analytics: UA-000000-0
+
+# Replace this value and uncomment to enable Disqus
+# disqus: xxxxxx
+
+# Specify the author for blog posts
+author:
+  name: Songzi Vong
+  url: https://github.com/vszhub/
+  email: vszhub@gmail.com

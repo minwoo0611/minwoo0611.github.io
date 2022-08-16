@@ -45,7 +45,7 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 
 + **Listed on _Dean's list_ of CEE, KAIST** - Fall semester, 2019
 
-+ **Participate 2019 University of Sydeny-KAIST Undergraduate Research school for Smart, Resilient, Sustainable Built Environment** - Summer semester, 2019
++ **Participated 2019 University of Sydeny-KAIST Undergraduate Research school for Smart, Resilient, Sustainable Built Environment** - Summer semester, 2019
 
 + **Participate Bio-Digital City Workshop in Paris** - Summer semester, 2018
 

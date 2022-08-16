@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2020/09/30/welcome-to-not-pure-poole/</loc>
-<lastmod>2020-10-01T02:08:25+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2020/10/01/releasing-not-pure-poole-v0-1-0/</loc>
-<lastmod>2020-10-01T14:56:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2020/10/02/testing-mathjax/</loc>
-<lastmod>2020-10-02T16:32:00+09:00</lastmod>
+<loc>http://localhost:4000/2022/08/16/testing-mathjax/</loc>
+<lastmod>2022-08-16T19:53:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>

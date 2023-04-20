@@ -4,6 +4,10 @@ title: Minwoo Jung
 ---
 
 ---
+# **2023**
++ **February 2023** - Submitted paper to RA-L journal for the first time as first author
++ **January 2023** - Trip to Sanfransico, Las Vegas, New York and Washington DC
 
 # **2022**
++ **Octoboer 2022** - Participate IROS Late Breaking Results Posters in Kyoto, Japan 
 + **August 2022** - Started to write CV and blog

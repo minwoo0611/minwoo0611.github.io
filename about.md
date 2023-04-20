@@ -33,7 +33,7 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 
 1. Hyesu Jang, **Minwoo Jung**, Sangwoo Jung, and Ayoung Kim. **Radar-based Angular Correction for Tightly-coupled LiDAR Odometry.** In 2022 IROS workshop, pp. 3857-3864. **[[View]](https://iros2022-pnarude.github.io/pdf/PNARUDE_IROS2022_Hyesu_Jang_Radar-based_Angular_Correction_for_TIghtly-coupled_LiDAR_Odometry.pdf)**
 
-1. **Minwoo Jung** and Ayoung Kim. **Pointclouds Integration from Aerial and Ground View Exploiting Normal Vector and Pose Graph Optimization**. ICRA 2022 Late Breaking Results (poster only, not published)
+1. **Minwoo Jung** and Ayoung Kim. **Pointclouds Integration from Aerial and Ground View Exploiting Normal Vector and Pose Graph Optimization**. ICRA 2022 Late Breaking Results (poster only, not published) **[Poster](https://file.notion.so/f/s/0c5a2d77-42aa-4f38-acb2-b3c2e48e4647/iros2022-mwjung.pdf?id=3b26985f-f7ac-49b1-86a9-94225ce5866b&table=block&spaceId=8108fdc3-3e6e-45cc-b935-3761bb91875d&expirationTimestamp=1682048180953&signature=C3kpNNesHPthvL9aoc-k8WCND0ofkW13SsVNbjHJF90&downloadName=iros2022-poster-mwjung.pdf)** **[[Paper]](https://file.notion.so/f/s/5eec08a3-9f12-4e0d-9b95-2603f9d80f6e/iros2022_poster_mwjung.pdf?id=c850ad72-e0db-43bd-ae06-170dd3280565&table=block&spaceId=8108fdc3-3e6e-45cc-b935-3761bb91875d&expirationTimestamp=1682048218387&signature=vBNYRIMas7F6ZMgMo41F-BANrgNqQawSY4i_kU9-Q6o&downloadName=iros2022_poster_mwjung.pdf)**
 
 1.  Jeongyun Kim, Seungsang Yun, **Minwoo Jung**, Ayoung Kim, Younggun Cho. **Automatic wall slant angle map generation using 3D point clouds**. ETRI Journal, 2021, 43.4: 594-602. **[[View]](https://onlinelibrary.wiley.com/doi/pdfdirect/10.4218/etrij.2021-0053)**
 

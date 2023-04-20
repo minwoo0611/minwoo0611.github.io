@@ -27,6 +27,11 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 ---
 
 # **Publication** 
+1. **Minwoo Jung**, Sangwoo Jung, and Ayoung Kim. **Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation** RA-L 2023 under-review.
+
+1. Seungsang Yun, **Minwoo Jung**, Jeongyun Kim, Sangwoo Jung, Younghun Cho, Myung-Hwan Jeon, Giseop Kim, and Ayoung Kim. **STheReO: Stereo Thermal Dataset for Research in Odometry and Mapping.** In 2022 IROS, pp. 3857-3864. **[[View]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9981857)**
+
+1. Hyesu Jang, **Minwoo Jung**, Sangwoo Jung, and Ayoung Kim. **Radar-based Angular Correction for Tightly-coupled LiDAR Odometry.** In 2022 IROS workshop, pp. 3857-3864. **[[View]](https://iros2022-pnarude.github.io/pdf/PNARUDE_IROS2022_Hyesu_Jang_Radar-based_Angular_Correction_for_TIghtly-coupled_LiDAR_Odometry.pdf)**
 
 1. **Minwoo Jung** and Ayoung Kim. **Pointclouds Integration from Aerial and Ground View Exploiting Normal Vector and Pose Graph Optimization**. ICRA 2022 Late Breaking Results (poster only, not published)
 

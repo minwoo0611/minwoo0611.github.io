@@ -27,9 +27,11 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 ---
 
 # **Publication** 
-1. **Minwoo Jung**, Sangwoo Jung, and Ayoung Kim. **Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation** IEEE ROBOTICS AND AUTOMATION LETTERS. PREPRINT VERSION. ACCEPTED MAY, 2023 **[[View]](https://github.com/minwoo0611/MA-LIO/blob/main/figs/paper.pdf)**
+1. Hyesu Jang, **Minwoo Jung**, and Ayoung Kim, **RaPlace: Place Recognition for Imaging Radar using Radon Transform and Mutable Threshold** 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, USA, 2023. Accepted. **[[Code]](https://github.com/iriter/RaPlace)**
 
-1. Seungsang Yun, **Minwoo Jung**, Jeongyun Kim, Sangwoo Jung, Younghun Cho, Myung-Hwan Jeon, Giseop Kim, and Ayoung Kim. **STheReO: Stereo Thermal Dataset for Research in Odometry and Mapping.** In 2022 IROS, pp. 3857-3864. **[[View]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9981857)**
+1. **Minwoo Jung**, Sangwoo Jung, and Ayoung Kim. **Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation** in IEEE Robotics and Automation Letters, vol. 8, no. 7, pp. 4211-4218, July 2023, **[[View]](https://ieeexplore.ieee.org/abstract/document/10138602) [[Paper]](https://rpm.snu.ac.kr/publications/mwjung-2023-ral.pdf) [[Video]](https://www.youtube.com/watch?v=M-GWxY2L_Fs&feature=youtu.be) [[Code]](https://github.com/minwoo0611/MA-LIO)**
+
+1. Seungsang Yun, **Minwoo Jung**, Jeongyun Kim, Sangwoo Jung, Younghun Cho, Myung-Hwan Jeon, Giseop Kim, and Ayoung Kim. **STheReO: Stereo Thermal Dataset for Research in Odometry and Mapping.** 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Kyoto, Japan, 2022, pp. 3857-3864. **[[View]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9981857)**
 
 1. Hyesu Jang, **Minwoo Jung**, Sangwoo Jung, and Ayoung Kim. **Radar-based Angular Correction for Tightly-coupled LiDAR Odometry.** In 2022 IROS workshop, pp. 3857-3864. **[[View]](https://iros2022-pnarude.github.io/pdf/PNARUDE_IROS2022_Hyesu_Jang_Radar-based_Angular_Correction_for_TIghtly-coupled_LiDAR_Odometry.pdf)**
 
@@ -43,6 +45,7 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 
 ---
 # **Honors and Awards**
++ **Ranked 4th in the Lidar Single Session category at the Hilti SLAM Challenge 2023** - 2023.05.31
 
 + **Received the citation from the Korea Concrete Institute** - 2021.02.19
 

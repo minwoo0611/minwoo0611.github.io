@@ -9,14 +9,15 @@ check the [lastest news](https://minwoo0611.github.io/lastest/)!
 
 # **About Me** 
 
-I obtained B.S in Civil and Environmental Enginnering(CEE) at KAIST, South Korea. Now, I am pursuing M.S advised by Prof. [Ayoung Kim](https://ayoungk.github.io/) in the [RPM lab](https://rpm.snu.ac.kr/), Department of Mechanical Engineering, SNU(Seoul National University).
+I obtained B.S in Civil and Environmental Enginnering (CEE) at KAIST, South Korea. After graduating at KAIST, I studied master courses in Mechanical Enginnering (ME) at Seoul National University (SNU). Now, I am pursuing Ph.D advised by Prof. [Ayoung Kim](https://ayoungk.github.io/) in the [RPM lab](https://rpm.snu.ac.kr/), Department of Mechanical Engineering, SNU.
 
 My research topics are related with LiDAR sensor such as simultaneous localization and mapping(SLAM) and sensor fusions.
 
 ---
 # **Education**
++ **Ph.D in RPM Lab Mechanical Engineering / SNU** - 2023.09.01~
 
-+ **M.S in RPM Lab Mechanical Engineering / SNU** - 2021.09.01~
++ **M.S in RPM Lab Mechanical Engineering / SNU** - 2021.09.01~2023.08.31
 
 + **M.S in IRAP Lab, Civil and Environmental Engineering (leave to SNU) / KAIST** - 2021.03.02~2021.08.27
 
@@ -27,6 +28,8 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 ---
 
 # **Publication** 
+1. **Minwoo Jung**, Dongjae Lee, Wooseong Yang, and Ayoung Kim, **HeLiPR: Heterogeneous LiDAR Dataset for inter-LiDAR Place Recognition in Spatial and Temporal Variation Environments** In 2023 IROS workshop (Under Review) **[Homepage](https://sites.google.com/view/heliprdataset)**
+
 1. Hyesu Jang, **Minwoo Jung**, and Ayoung Kim, **RaPlace: Place Recognition for Imaging Radar using Radon Transform and Mutable Threshold** 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, USA, 2023. Accepted. **[[Code]](https://github.com/iriter/RaPlace)**
 
 1. **Minwoo Jung**, Sangwoo Jung, and Ayoung Kim. **Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation** in IEEE Robotics and Automation Letters, vol. 8, no. 7, pp. 4211-4218, July 2023, **[[View]](https://ieeexplore.ieee.org/abstract/document/10138602) [[Paper]](https://rpm.snu.ac.kr/publications/mwjung-2023-ral.pdf) [[Video]](https://www.youtube.com/watch?v=M-GWxY2L_Fs&feature=youtu.be) [[Code]](https://github.com/minwoo0611/MA-LIO)**
@@ -47,6 +50,8 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 
 ---
 # **Honors and Awards**
++ **Seoul National University Best (M.S) thesis award** - 2023.08.29
+
 + **Ranked 4th in the Lidar Single Session category at the Hilti SLAM Challenge 2023** - 2023.05.31
 
 + **Received the citation from the Korea Concrete Institute** - 2021.02.19

@@ -51,7 +51,7 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 
 1. Sangwoo Jung, Hyesu Jang, **Minwoo Jung**, Myung-Hwan Jeon and Ayoung Kim, **CycleGAN-based Imaging Radar to LiDAR Image Translation for 2D Extrinsic Calibration**, **Novel Sensors** Workshop, 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, USA, 2023 
 
-1. **Dongjae Lee**, Minwoo Jung and Ayoung Kim, **ConPR: Ongoing Construction Site Dataset for Place Recognition**, **Closing the Loop on Localization: What Are We Localizing For, and How Does That Shape Everything We Should Do?** Workshop, 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, USA, 2023 **[Homepage](https://sites.google.com/view/heliprdataset)**
+1. Dongjae Lee, **Minwoo Jung** and Ayoung Kim, **ConPR: Ongoing Construction Site Dataset for Place Recognition**, **Closing the Loop on Localization: What Are We Localizing For, and How Does That Shape Everything We Should Do?** Workshop, 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, USA, 2023 **[Homepage](https://github.com/dongjae0107/ConPR)**
 
 1. **Minwoo Jung**, Sangwoo Jung, and Ayoung Kim. **MA-LIO: Multiple Asynchronous LiDAR-Inertial Odometry with Time-dependent Point-wise Uncertainty**, Towards Safe Autonomy: New Challenges and Trends in Robot Perception Workshop in Robotics: Science and Systems Workshop, July 2023, Dual Submission **[[Poster]](https://minwoo0611.github.io/publications/RSS2023_ws_poster_mwjung.pdf)** **[[Paper]](https://minwoo0611.github.io/publications/RSS2023_ws_manuscript_mwjung.pdf)**
 

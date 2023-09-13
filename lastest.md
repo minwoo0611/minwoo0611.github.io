@@ -5,6 +5,7 @@ title: Minwoo Jung
 
 ---
 # **2023**
++ **August 2023** - Accept three workshops (1st, 2nd and 3rd author)
 + **August 2023** - Graduate the master course, and start the Ph.D course.
 + **August 2023** - Open the [HeLiPR dataset](https://sites.google.com/view/heliprdataset) for IROS 2023 Workshop
 + **July 2023** - Participate in RSS workshop in Daegu, South Korea (Towards Safe Autonomy: New Challenges and Trends in Robot Perception Session) 

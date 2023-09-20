@@ -28,6 +28,8 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 ---
 
 # **Publication** 
+1. Hyesu Jang, **Minwoo Jung**, and Ayoung Kim, **LodeStar: Maritime Radar Descriptor for Semi-Direct Radar Odometry** in IEEE Robotics and Automation Letters, September 2023. (Under Review) **[[Code]](https://github.com/hyesu-jang/LodeStar)**
+
 1. Jeongyun Kim, Myung-Hwan Jeon, Sangwoo Jung, Wooseong Yang, **MInwoo Jung**, Jaeho Shin, Ayoung Kim, **TRansPose: Large-Scale Multispectral Dataset for Transparent Object**, Intelligent Journal of Robotics Research, 2023 (Under Review)
 
 1. Sangwoo Jung, Hyesu Jang, **Minwoo Jung**, Ayoung Kim, and Myung-Hwan Jeon, **Imaging radar and LiDAR Image Translation for 3-DOF Extrinsic Calibration** in Intelligent Service Robotics, 2023 (Under Review)
@@ -83,6 +85,13 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 # **Skills**
 
 + **Programming tools** - C/C++, Python, Matlab, ROS, GTSAM, Symforce, Pytorch
+
+---
+
+# **Reviewer**
+
++ IEEE Robotics and Automation Letters (RA-L)
++ IEEE International Conference on Intelligent Robots and Systems (IROS)
 
 ---
 

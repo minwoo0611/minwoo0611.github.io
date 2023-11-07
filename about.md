@@ -36,7 +36,7 @@ My research topics are related with LiDAR sensor such as simultaneous localizati
 
 1. Hyesu Jang, **Minwoo Jung**, and Ayoung Kim, **RaPlace: Place Recognition for Imaging Radar using Radon Transform and Mutable Threshold** 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, USA, 2023. Accepted. **[[Code]](https://github.com/iriter/RaPlace)**
 
-1. **Minwoo Jung**, Sangwoo Jung, and Ayoung Kim. **Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation** in IEEE Robotics and Automation Letters, vol. 8, no. 7, pp. 4211-4218, July 2023, **[[View]](https://ieeexplore.ieee.org/abstract/document/10138602) [[Paper]](https://rpm.snu.ac.kr/publications/mwjung-2023-ral.pdf) [[Video]](https://www.youtube.com/watch?v=M-GWxY2L_Fs&feature=youtu.be) [[Code]](https://github.com/minwoo0611/MA-LIO)**
+1. **Minwoo Jung**, Sangwoo Jung, and Ayoung Kim. **Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation** in IEEE Robotics and Automation Letters, vol. 8, no. 7, pp. 4211-4218, July 2023, **[[View]](https://ieeexplore.ieee.org/abstract/document/10138602) [[Paper]](https://minwoo0611.github.io/publications/ral2023_mwjung.pdf) [[Video]](https://www.youtube.com/watch?v=M-GWxY2L_Fs&feature=youtu.be) [[Code]](https://github.com/minwoo0611/MA-LIO)**
 
 1. Seungsang Yun, **Minwoo Jung**, Jeongyun Kim, Sangwoo Jung, Younghun Cho, Myung-Hwan Jeon, Giseop Kim, and Ayoung Kim. **STheReO: Stereo Thermal Dataset for Research in Odometry and Mapping.** 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Kyoto, Japan, 2022, pp. 3857-3864. **[[View]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9981857)**
 

@@ -28,11 +28,13 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 # **Publication (Journal)** 
 1. Dongjae Lee, **Minwoo Jung**, Wooseong Yang, and Ayoung Kim, **LiDAR Odometry Survey: Recent Advancements and Remaining Challenges**, Intelligent Service Robotics, 2023 (Under Review).
 
-2. Hyesu Jang, **Minwoo Jung**, and Ayoung Kim, **LodeStar: Maritime Radar Descriptor for Semi-Direct Radar Odometry**, IEEE Robotics and Automation Letters, September 2023 (Under Review). [**Code**](https://github.com/hyesu-jang/LodeStar)
+1. Hyesu Jang, **Minwoo Jung**, and Ayoung Kim, **LodeStar: Maritime Radar Descriptor for Semi-Direct Radar Odometry**, IEEE Robotics and Automation Letters, 2023 (Under Review). [**Code**](https://github.com/hyesu-jang/LodeStar)
+
+1. **Minwoo Jung**, Wooseong Yang, Dongjae Lee, Hyeonjae Gil, Giseop Kim, and Ayoung Kim, **HeLiPR: Heterogeneous LiDAR Dataset for inter-LiDAR Place Recognition under Spatial and Temporal Variations**, The International Journal of Robotics Research, 2023 (Under Review). **[Homepage](https://sites.google.com/view/heliprdataset)**
 
 1. Sangwoo Jung, Hyesu Jang, **Minwoo Jung**, Ayoung Kim, and Myung-Hwan Jeon, **Imaging radar and LiDAR Image Translation for 3-DOF Extrinsic Calibration**, Intelligent Service Robotics, 2023 (Accepted)
 
-1. Jeongyun Kim, Myung-Hwan Jeon, Sangwoo Jung, Wooseong Yang, **Minwoo Jung**, Jaeho Shin, Ayoung Kim, **TRansPose: Large-Scale Multispectral Dataset for Transparent Object**, The International Journal of Robotics Research. 2023 **[[View]](https://sites.google.com/view/transpose-dataset)**
+1. Jeongyun Kim, Myung-Hwan Jeon, Sangwoo Jung, Wooseong Yang, **Minwoo Jung**, Jaeho Shin, Ayoung Kim, **TRansPose: Large-Scale Multispectral Dataset for Transparent Object**, The International Journal of Robotics Research, 2023 **[[View]](https://sites.google.com/view/transpose-dataset)**
 
 1. **Minwoo Jung**, Sangwoo Jung, and Ayoung Kim. **Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation**, IEEE Robotics and Automation Letters, vol. 8, no. 7, pp. 4211-4218, July 2023, **[[View]](https://ieeexplore.ieee.org/abstract/document/10138602) [[Paper]](https://minwoo0611.github.io/publications/ral2023_mwjung.pdf) [[Video]](https://www.youtube.com/watch?v=M-GWxY2L_Fs&feature=youtu.be) [[Code]](https://github.com/minwoo0611/MA-LIO)**
 
@@ -52,7 +54,7 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 
 ---
 # **Wokrshop & Poster**
-1. **Minwoo Jung**, Dongjae Lee, Wooseong Yang, and Ayoung Kim, **HeLiPR: Heterogeneous LiDAR Dataset for inter-LiDAR Place Recognition in Spatial and Temporal Variation Environments**, **Novel Sensors** Workshop, 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, USA, 2023 **[Homepage](https://sites.google.com/view/heliprdataset)**
+1. **Minwoo Jung**, Dongjae Lee, Wooseong Yang, and Ayoung Kim, **HeLiPR: Heterogeneous LiDAR Dataset for inter-LiDAR Place Recognition in Spatial and Temporal Variation Environments**, **Novel Sensors** Workshop, 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, USA, 2023.
 
 1. Dongjae Lee, **Minwoo Jung** and Ayoung Kim, **ConPR: Ongoing Construction Site Dataset for Place Recognition**, **Closing the Loop on Localization: What Are We Localizing For, and How Does That Shape Everything We Should Do?** Workshop, 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, USA, 2023 **[Homepage](https://github.com/dongjae0107/ConPR)**
 

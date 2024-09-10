@@ -26,6 +26,8 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 ---
 
 # **Publication (Journal)** 
+1. Sanghyun Hahn, Seunghun Oh, **Minwoo Jung**, Ayoung Kim, Sangwoo Jung, **Quantitative 3D Map Accuracy Evaluation Hardware and Algorithm for LiDAR (-Inertial) SLAM**, International Conference on Control, Automation and Systems, 2024 (Accepted) **[[Paper]](https://minwoo0611.github.io/publications/ICCAS2024.pdf)** **[[Code]](https://github.com/SangwooJung98/3D_Map_Evaluation)**
+
 1. Dongjae Lee, **Minwoo Jung**, Wooseong Yang, and Ayoung Kim, **LiDAR Odometry Survey: Recent Advancements and Remaining Challenges**, Intelligent Service Robotics 17, 95–118, 2024 **[[View]](https://link.springer.com/article/10.1007/s11370-024-00515-8)** **[[Paper]](https://minwoo0611.github.io/publications/isr2024-survey.pdf)**
 
 1. Hyesu Jang, **Minwoo Jung**, and Ayoung Kim, **LodeStar: Maritime Radar Descriptor for Semi-Direct Radar Odometry**, IEEE Robotics and Automation Letters, vol. 9, no. 2, pp. 1684-1691, Feburary 2024 **[[View]](https://ieeexplore.ieee.org/abstract/document/10380692)** **[[Paper]](https://minwoo0611.github.io/publications/ral2024-lodestar.pdf)** **[[Code]](https://github.com/hyesu-jang/LodeStar)**
@@ -91,8 +93,10 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 
 # Reviewer
 - The International Journal of Robotics Research (IJRR)
+- The International Conference on Control, Automation and Systems (ICCAS)
 - IEEE Robotics and Automation Letters (RA-L)
 - IEEE International Conference on Intelligent Robots and Systems (IROS)
+- IEEE Transactions on Automation Science and Engineering (T-ASE)
 
 ---
 

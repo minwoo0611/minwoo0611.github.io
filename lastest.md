@@ -5,6 +5,10 @@ title: Minwoo Jung
 
 ---
 # **2024**
++ **August 2024** - Participate KCCV in Busan, South Korea
++ **July 2024** - Trip to Sapporo, Japan
++ **July 2024** - Participate ICROS in Daejeon, South Korea
++ **May 2024** - Participate ICRA in Yokohama, Japan (RA-L presentation with 1 workshop as 2nd author)
 + **April 2024** - Accepted one workshop in ICAR 2024 (2nd author)
 + **March 2024** - Accepted dataset paper of [HeLiPR dataset](https://sites.google.com/view/heliprdataset) to IJRR journal (1st author)
 + **January 2024** - Trip to Malaysia and Malaka

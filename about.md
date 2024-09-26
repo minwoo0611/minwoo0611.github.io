@@ -50,6 +50,12 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 
 ---
 # **Publication (Conference)**
+1. **Minwoo Jung**, Sangwoo Jung, Hyeonjae Gil, and Ayoung Kim, "HeLiOS: Heterogeneous LiDAR Place Recognition via Overlap-based Learning and Local Spherical Transformer", 2025 IEEE International Conference on Robotics and Automation (ICRA) (Submitted) **[[Code]](https://github.com/minwoo0611/HeLiOS)**
+
+1. Hanjun Kim, **Minwoo Jung**, Chiyun Noh, Sangwoo Jung, Hyunho Song, Wooseong Yang, Hyesu Jang, and Ayoung Kim, **HeRCULES: Heterogeneous Radar Dataset in Complex Urban Environment for Multi-session Radar SLAM**, 2025 IEEE International Conference on Robotics and Automation (ICRA) (Submitted) **[[Homepage]](https://sites.google.com/view/herculesdataset)**
+
+1. Chiyun Noh, Wooseong Yang, **Minwoo Jung**, Sangwoo Jung and Ayoung Kim, **GaRLIO: Gravity enhanced Radar-LiDAR-Inertial Odometry**, 2025 IEEE International Conference on Robotics and Automation (ICRA) (Submitted) **[[Code]](https://github.com/ChiyunNoh/GaRLIO)**
+
 1. Hyesu Jang, **Minwoo Jung**, and Ayoung Kim, **RaPlace: Place Recognition for Imaging Radar using Radon Transform and Mutable Threshold**, 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, USA, 2023, pp. 11194-11201 **[[View]](https://ieeexplore.ieee.org/abstract/document/10341883/)** **[[Paper]](https://minwoo0611.github.io/publications/iros2023-raplace.pdf)** **[[Code]](https://github.com/iriter/RaPlace)**
 
 1. Seungsang Yun, **Minwoo Jung**, Jeongyun Kim, Sangwoo Jung, Younghun Cho, Myung-Hwan Jeon, Giseop Kim, and Ayoung Kim. **STheReO: Stereo Thermal Dataset for Research in Odometry and Mapping.**, 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Kyoto, Japan, 2022, pp. 3857-3864 **[[View]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9981857)** **[[Paper]](https://minwoo0611.github.io/publications/iros2022-sthereo.pdf)** **[[Homepage]](https://sites.google.com/view/rpmsthereo/)**

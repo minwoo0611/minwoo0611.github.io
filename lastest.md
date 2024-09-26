@@ -5,6 +5,7 @@ title: Minwoo Jung
 
 ---
 # **2024**
++ **September 2024** - Submitted 3 papers to ICRA 2025 (1st, 2nd, 3rd author)
 + **August 2024** - Participate KCCV in Busan, South Korea
 + **July 2024** - Trip to Sapporo, Japan
 + **July 2024** - Participate ICROS in Daejeon, South Korea

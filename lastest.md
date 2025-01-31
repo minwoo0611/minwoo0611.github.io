@@ -4,7 +4,14 @@ title: Minwoo Jung
 ---
 
 ---
+# **2025**
++ **Febarary 2025** - Participate BMVA 2025 in London
++ **Feburary 2025** - Visit Oxford Robotics Institute for 1 month (Research Student)
++ **January 2025** - Accepted 3 papers to ICRA 2025 (1st, 2nd, 3rd author)
+
 # **2024**
++ **November 2024** - Trip to Germany and Austria
++ **Octobor 2024** - Participate in ICCAS 2024 in Jeju island (3rd author)
 + **September 2024** - Submitted 3 papers to ICRA 2025 (1st, 2nd, 3rd author)
 + **August 2024** - Participate KCCV in Busan, South Korea
 + **July 2024** - Trip to Sapporo, Japan

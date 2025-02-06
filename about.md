@@ -27,6 +27,8 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 ---
 
 # **Publication (Journal)** 
+1. Hyesu Jang, Wooseong Yang, Hanguen Kim, Dongje Lee, Yongjin Kim, Jinbum Park, Minsoo Jeon, Jaeseong Koh, Yejin Kang, **Minwoo Jung**, Sangwoo Jung, Chng Zhen Hao, Wong Yu Hin, Chew Yihang and Ayoung Kim, **MOANA: Multi-Radar Dataset for Maritime Odometry and Autonomous Navigation Application**, The International Journal of Robotics Research, 2025 (Under Review) **[[Paper]](https://minwoo0611.github.io/publications/ijrr2025-moana.pdf)** **[[Homepage]](https://sites.google.com/view/rpmmoana)**
+
 1. Dongjae Lee, **Minwoo Jung**, Wooseong Yang, and Ayoung Kim, **LiDAR Odometry Survey: Recent Advancements and Remaining Challenges**, Intelligent Service Robotics 17, 95–118, 2024 **[[View]](https://link.springer.com/article/10.1007/s11370-024-00515-8)** **[[Paper]](https://minwoo0611.github.io/publications/isr2024-survey.pdf)**
 
 1. Hyesu Jang, **Minwoo Jung**, and Ayoung Kim, **LodeStar: Maritime Radar Descriptor for Semi-Direct Radar Odometry**, IEEE Robotics and Automation Letters, vol. 9, no. 2, pp. 1684-1691, Feburary 2024 **[[View]](https://ieeexplore.ieee.org/abstract/document/10380692)** **[[Paper]](https://minwoo0611.github.io/publications/ral2024-lodestar.pdf)** **[[Code]](https://github.com/hyesu-jang/LodeStar)**
@@ -49,9 +51,9 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 
 ---
 # **Publication (Conference)**
-1. **Minwoo Jung**, Sangwoo Jung, Hyeonjae Gil, and Ayoung Kim, "HeLiOS: Heterogeneous LiDAR Place Recognition via Overlap-based Learning and Local Spherical Transformer", 2025 IEEE International Conference on Robotics and Automation (ICRA) (Accepted) **[[Code]](https://github.com/minwoo0611/HeLiOS)** **[[Paper]](https://minwoo0611.github.io/publications/icra2025-helios.pdf)**
+1. **Minwoo Jung**, Sangwoo Jung, Hyeonjae Gil, and Ayoung Kim, "HeLiOS: Heterogeneous LiDAR Place Recognition via Overlap-based Learning and Local Spherical Transformer", 2025 IEEE International Conference on Robotics and Automation (ICRA) (Accepted) **[[Paper]](https://minwoo0611.github.io/publications/icra2025-helios.pdf)** **[[Code]](https://github.com/minwoo0611/HeLiOS)** 
 
-1. Hanjun Kim, **Minwoo Jung**, Chiyun Noh, Sangwoo Jung, Hyunho Song, Wooseong Yang, Hyesu Jang, and Ayoung Kim, **HeRCULES: Heterogeneous Radar Dataset in Complex Urban Environment for Multi-session Radar SLAM**, 2025 IEEE International Conference on Robotics and Automation (ICRA) (Accepted) **[[Homepage]](https://sites.google.com/view/herculesdataset)**
+1. Hanjun Kim, **Minwoo Jung**, Chiyun Noh, Sangwoo Jung, Hyunho Song, Wooseong Yang, Hyesu Jang, and Ayoung Kim, **HeRCULES: Heterogeneous Radar Dataset in Complex Urban Environment for Multi-session Radar SLAM**, 2025 IEEE International Conference on Robotics and Automation (ICRA) (Accepted) **[[Paper]](https://minwoo0611.github.io/publications/icra2025-hercules.pdf)** **[[Homepage]](https://sites.google.com/view/herculesdataset)**
 
 1. Chiyun Noh, Wooseong Yang, **Minwoo Jung**, Sangwoo Jung and Ayoung Kim, **GaRLIO: Gravity enhanced Radar-LiDAR-Inertial Odometry**, 2025 IEEE International Conference on Robotics and Automation (ICRA) (Accepted) **[[Code]](https://github.com/ChiyunNoh/GaRLIO)**
 

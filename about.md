@@ -55,7 +55,7 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 
 1. Hanjun Kim, **Minwoo Jung**, Chiyun Noh, Sangwoo Jung, Hyunho Song, Wooseong Yang, Hyesu Jang, and Ayoung Kim, **HeRCULES: Heterogeneous Radar Dataset in Complex Urban Environment for Multi-session Radar SLAM**, 2025 IEEE International Conference on Robotics and Automation (ICRA) (Accepted) **[[Paper]](https://minwoo0611.github.io/publications/icra2025-hercules.pdf)** **[[Homepage]](https://sites.google.com/view/herculesdataset)**
 
-1. Chiyun Noh, Wooseong Yang, **Minwoo Jung**, Sangwoo Jung and Ayoung Kim, **GaRLIO: Gravity enhanced Radar-LiDAR-Inertial Odometry**, 2025 IEEE International Conference on Robotics and Automation (ICRA) (Accepted) **[[Code]](https://github.com/ChiyunNoh/GaRLIO)**
+1. Chiyun Noh, Wooseong Yang, **Minwoo Jung**, Sangwoo Jung and Ayoung Kim, **GaRLIO: Gravity enhanced Radar-LiDAR-Inertial Odometry**, 2025 IEEE International Conference on Robotics and Automation (ICRA) (Accepted) **[[Paper]](https://minwoo0611.github.io/publications/icra2025-garlio.pdf)** **[[Code]](https://github.com/ChiyunNoh/GaRLIO)**
 
 1. Sanghyun Hahn, Seunghun Oh, **Minwoo Jung**, Ayoung Kim, Sangwoo Jung, **Quantitative 3D Map Accuracy Evaluation Hardware and Algorithm for LiDAR (-Inertial) SLAM**, International Conference on Control, Automation and Systems, 2024 (Accepted) **[[Paper]](https://minwoo0611.github.io/publications/ICCAS2024.pdf)** **[[Code]](https://github.com/SangwooJung98/3D_Map_Evaluation)**
 
@@ -81,6 +81,7 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 
 # Honors and Awards
 
+- **Paper Award in KROS 2025 (2nd author)** - 2025.02.14
 - **Best Overall Presentation Award in IROS 2023 Workshop (2nd author)** - 2023.10.01
 - **Seoul National University Best (M.S) thesis award** - 2023.08.29
 - **Ranked 4th in the Lidar Single Session category at the Hilti SLAM Challenge 2023** - 2023.05.31

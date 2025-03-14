@@ -106,6 +106,7 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 - The International Conference on Control, Automation and Systems (ICCAS)
 - IEEE Transactions on Robotics (T-RO)
 - IEEE Robotics and Automation Letters (RA-L)
+- IEEE International Conference on Robotics and Automation (ICRA)
 - IEEE International Conference on Intelligent Robots and Systems (IROS)
 - IEEE Transactions on Automation Science and Engineering (T-ASE)
 

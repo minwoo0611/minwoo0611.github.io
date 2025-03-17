@@ -5,7 +5,7 @@ title: Minwoo Jung
 
 ---
 # **2025**
-+ **February 2025** - Trip to France (Rennes, Mont Saint-Michel and Saint-Malo)
++ **March 2025** - Trip to France (Rennes, Mont Saint-Michel and Saint-Malo) and Czech Republic (Prague and Plzen)
 + **Febarary 2025** - Participate BMVA 2025 in London
 + **Feburary 2025** - Visit Oxford Robotics Institute for 1 month (Research Student)
 + **Feburary 2025** - Trip to España (Malaga, Granada and Sevilla)

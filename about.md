@@ -65,7 +65,9 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 
 ---
 # **Wokrshop & Poster**
-1. Eunho Lee, **Minwoo Jung**, and Ayoung Kim, **Toward Robust LiDAR based 3D Object Detection via Density-Aware Adaptive Thresholding**, **Field Robotics** Workshop, 2024 , 2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japn, 2024 **[[Paper]](https://minwoo0611.github.io/publications/icra2024-workshop.pdf)**
+1. Hyunho Song, Dongjae Lee, Seunghun Oh, **Minwoo Jung** and Ayoung Kim, **The City that Never Settles: Simulation-based LiDAR Dataset for Long-Term Place Recognition Under Extreme Structural Changes**, **Construction Robotics** Workshop, 2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 2025 **[[Paper]](https://arxiv.org/abs/2505.05076)**
+
+1. Eunho Lee, **Minwoo Jung**, and Ayoung Kim, **Toward Robust LiDAR based 3D Object Detection via Density-Aware Adaptive Thresholding**, **Field Robotics** Workshop, 2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, 2024 **[[Paper]](https://minwoo0611.github.io/publications/icra2024-workshop.pdf)**
 
 1. **Minwoo Jung**, Dongjae Lee, Wooseong Yang, and Ayoung Kim, **HeLiPR: Heterogeneous LiDAR Dataset for inter-LiDAR Place Recognition in Spatial and Temporal Variation Environments**, **Novel Sensors** Workshop, 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, USA, 2023
 
@@ -80,6 +82,7 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 1. **Minwoo Jung** and Ayoung Kim. **Pointclouds Integration from Aerial and Ground View Exploiting Normal Vector and Pose Graph Optimization**, ICRA 2022 Late Breaking Results (poster only, not published) **[[Poster]](https://minwoo0611.github.io/publications/iros2022-poster-mwjung.pdf)** **[[Paper]](https://minwoo0611.github.io/publications/iros2022_manuscript_mwjung.pdf)**
 
 # Honors and Awards
+
 
 - **Paper Award in KROS 2025 (2nd author)** - 2025.02.14
 - **Best Overall Presentation Award in IROS 2023 Workshop (2nd author)** - 2023.10.01

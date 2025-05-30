@@ -5,6 +5,8 @@ title: Minwoo Jung
 
 ---
 # **2025**
++ **May 2025** - Participate ICRA in Atlanta, USA (3 papers and 1 workshop)
++ **May 2025** - Trip to USA (Boston)
 + **March 2025** - Trip to France (Rennes, Mont Saint-Michel and Saint-Malo) and Czech Republic (Prague and Plzen)
 + **Febarary 2025** - Participate BMVA 2025 in London
 + **Feburary 2025** - Visit Oxford Robotics Institute for 1 month (Research Student)

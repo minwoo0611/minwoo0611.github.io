@@ -53,6 +53,8 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 
 ---
 # **Publication (Conference)**
+1. **Minwoo Jung**, Lanke Frank Tarimo Fu, Maurice Fallon, Ayoung Kim, "ImLPR: Image-based LiDAR Place Recognition using Vision Foundation Models", Conference on Robot Learning (CoRL), 2025 (Accepted) **[[View]](https://arxiv.org/abs/2505.18364)**
+
 1. **Minwoo Jung**, Sangwoo Jung, Hyeonjae Gil, and Ayoung Kim, "HeLiOS: Heterogeneous LiDAR Place Recognition via Overlap-based Learning and Local Spherical Transformer", 2025 IEEE International Conference on Robotics and Automation (ICRA) (Accepted) **[[Paper]](https://minwoo0611.github.io/publications/icra2025-helios.pdf)** **[[Code]](https://github.com/minwoo0611/HeLiOS)** 
 
 1. Hanjun Kim, **Minwoo Jung**, Chiyun Noh, Sangwoo Jung, Hyunho Song, Wooseong Yang, Hyesu Jang, and Ayoung Kim, **HeRCULES: Heterogeneous Radar Dataset in Complex Urban Environment for Multi-session Radar SLAM**, 2025 IEEE International Conference on Robotics and Automation (ICRA) (Accepted) **[[Paper]](https://minwoo0611.github.io/publications/icra2025-hercules.pdf)** **[[Homepage]](https://sites.google.com/view/herculesdataset)**

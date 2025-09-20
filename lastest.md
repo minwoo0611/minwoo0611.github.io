@@ -5,6 +5,8 @@ title: Minwoo Jung
 Feb
 ---
 # **2025**
++ **September 2025** - Submitted 1 paper to ICRA 2026 (1st author)
++ **August 2025** - Participate in KCCV in Busan, South Korea
 + **August 2025** - Accepted paper to CoRL 2025 (1st author)
 + **June 2025** - Submitted 1 paper to RA-L journal (2nd author)
 + **May 2025** - Participate ICRA in Atlanta, USA (3 papers and 1 workshop)
@@ -12,7 +14,7 @@ Feb
 + **April 2025** - Submitted 1 paper to CoRL2025 (1st author)
 + **March 2025** - Trip to France (Rennes, Mont Saint-Michel and Saint-Malo) and Czech Republic (Prague and Plzen)
 + **February 2025** - Participate BMVA 2025 in London
-+ **February 2025** - Visit Oxford Robotics Institute for 1 month (Research Student)
++ **February 2025** - Visit Oxford Robotics Institute for a month (Research Student)
 + **February 2025** - Trip to España (Malaga, Granada and Sevilla)
 + **January 2025** - Accepted 3 papers to ICRA 2025 (1st, 2nd, 3rd author)
 

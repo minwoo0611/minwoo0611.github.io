@@ -1,11 +1,16 @@
 ---
 layout: page
 title: Minwoo Jung
+
 ---
-Feb
----
+# **2026**
++ **February 2026** - Submitted 1 paper to T-FR journal (1st author)
++ **February 2026** - Accepted paper to ICRA 2026 (1st author)
++ **February 2025** - Participate in KROC 2026 in Pyeongchang, South Korea
+
 # **2025**
 + **September 2025** - Submitted 1 paper to ICRA 2026 (1st author)
++ **August 2025** - Trip to Switzerland
 + **August 2025** - Participate in KCCV in Busan, South Korea
 + **August 2025** - Accepted paper to CoRL 2025 (1st author)
 + **June 2025** - Submitted 1 paper to RA-L journal (2nd author)

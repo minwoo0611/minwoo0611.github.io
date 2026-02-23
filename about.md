@@ -53,7 +53,10 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 
 ---
 # **Publication (Conference)**
-1. **Minwoo Jung**, Lanke Frank Tarimo Fu, Maurice Fallon, Ayoung Kim, "ImLPR: Image-based LiDAR Place Recognition using Vision Foundation Models", Conference on Robot Learning (CoRL), 2025 **[[View]](https://arxiv.org/abs/2505.18364)**
+
+1. **Minwoo Jung**, Nived Chebrolu, Lucas Carvalho de Lima, Haedam Oh, Maurice Fallon and Ayoung Kim, **TreeLoc: 6-DoF LiDAR Global Localization in Forests via Inter-Tree Geometric Matching**, IEEE International Conference on Robotics and Automation (ICRA), 2026 (Accepted) **[[Paper]](https://minwoo0611.github.io/publications/icra2026_treeloc.pdf)** **[[Code]](https://github.com/minwoo0611/TreeLoc)**
+
+1. **Minwoo Jung**, Lanke Frank Tarimo Fu, Maurice Fallon, Ayoung Kim, "ImLPR: Image-based LiDAR Place Recognition using Vision Foundation Models", Conference on Robot Learning (CoRL), 2025 **[[Paper]](https://arxiv.org/abs/2505.18364)**
 
 1. **Minwoo Jung**, Sangwoo Jung, Hyeonjae Gil, and Ayoung Kim, "HeLiOS: Heterogeneous LiDAR Place Recognition via Overlap-based Learning and Local Spherical Transformer", 2025 IEEE International Conference on Robotics and Automation (ICRA) (Accepted) **[[Paper]](https://minwoo0611.github.io/publications/icra2025-helios.pdf)** **[[Code]](https://github.com/minwoo0611/HeLiOS)** 
 

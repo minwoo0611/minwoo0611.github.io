@@ -27,7 +27,7 @@ My research primarily focuses on LiDAR sensor technologies, encompassing areas s
 ---
 
 # **Publication (Journal)** 
-1. Hanjun Kim, **Minwoo Jung**, Wooseong Yang, Ayoung Kim, "SHeRLoc: Synchronized Heterogeneous Radar Place Recognition for Cross-Modal Localization", IEEE Robotics and Automation Letters (Under Review) **[[View]](https://arxiv.org/abs/2506.15175v1)** 
+1. Hanjun Kim, **Minwoo Jung**, Wooseong Yang, Ayoung Kim, "SHeRLoc: Synchronized Heterogeneous Radar Place Recognition for Cross-Modal Localization", IEEE Robotics and Automation Letters (Accepted) **[[View]](https://arxiv.org/abs/2506.15175v1)** 
 
 1. Hyesu Jang, Wooseong Yang, Hanguen Kim, Dongje Lee, Yongjin Kim, Jinbum Park, Minsoo Jeon, Jaeseong Koh, Yejin Kang, **Minwoo Jung**, Sangwoo Jung, Chng Zhen Hao, Wong Yu Hin, Chew Yihang and Ayoung Kim, **MOANA: Multi-Radar Dataset for Maritime Odometry and Autonomous Navigation Application**, The International Journal of Robotics Research, 2025 **[[Paper]](https://minwoo0611.github.io/publications/ijrr2025-moana.pdf)** **[[Homepage]](https://sites.google.com/view/rpmmoana)**
 

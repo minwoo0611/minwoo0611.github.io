@@ -40,10 +40,10 @@
 
 <div class="news-filters" aria-label="News filters">
   <button class="news-filter-btn active" data-news-filter="all">All</button>
-  <button class="news-filter-btn" data-news-filter="research">Research</button>
-  <button class="news-filter-btn" data-news-filter="teaching">Teaching</button>
+  <button class="news-filter-btn" data-news-filter="paper">Papers</button>
+  <button class="news-filter-btn" data-news-filter="conference">Conferences</button>
   <button class="news-filter-btn" data-news-filter="visit">Visits</button>
-  <button class="news-filter-btn" data-news-filter="travel">Travel</button>
+  <button class="news-filter-btn" data-news-filter="teaching">Academic</button>
 </div>
 
 <div class="news">
@@ -51,11 +51,15 @@
   <div class="table-responsive">
     <table class="table table-sm table-borderless">
       {% for item in news %}
-        {% assign category = item.category | default: "research" %}
+        {% assign category = item.category | default: "paper" %}
+        {% assign category_label = category %}
+        {% if category == "teaching" %}
+          {% assign category_label = "academic" %}
+        {% endif %}
         <tr class="news-row" data-news-category="{{ category }}">
-          <th scope="row" style="width: 20%">{{ item.date | date: "%b %d, %Y" }}</th>
+          <th scope="row" style="width: 20%">{{ item.date | date: "%b %Y" }}</th>
           <td>
-            <span class="news-badge">{{ category }}</span>
+            <span class="news-badge">{{ category_label }}</span>
             {{ item.content | remove: "<p>" | remove: "</p>" | emojify }}
           </td>
         </tr>

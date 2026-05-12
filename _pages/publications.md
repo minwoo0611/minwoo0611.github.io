@@ -6,140 +6,187 @@ description:
 nav: true
 nav_order: 1
 
-conferences:
-  - key: CoRL
+scope_filters:
+  - key: all
+    label: All
+  - key: international
+    label: International
+  - key: domestic
+    label: Domestic
+  - key: corl
     label: CoRL
-    query: "@*[corl=true]*"
-  - key: ICRA
+  - key: icra
     label: ICRA
-    query: "@*[icra=true]*"
-  - key: IROS
+  - key: iros
     label: IROS
-    query: "@*[iros=true]*"
-  - key: RAL
-    label: RAL
-    query: "@*[ral=true]*"
-  - key: IJRR
+  - key: ral
+    label: RA-L
+  - key: ijrr
     label: IJRR
-    query: "@*[ijrr=true]*"
-  - key: ISR
+  - key: isr
     label: ISR
-    query: "@*[isr=true]*"
-  - key: ICCAS
+  - key: iccas
     label: ICCAS
-    query: "@*[iccas=true]*"
-  - key: Workshop
-    label: Workshops
-    query: "@*[workshop=true]*"
+  - key: workshop
+    label: Workshop
+  - key: jkros
+    label: JKROS
+  - key: etri
+    label: ETRI
+  - key: preprint
+    label: arXiv
 
-topics:
-  - key: LiDAR
+topic_filters:
+  - key: all-topic
+    label: All Topics
+  - key: lidar
     label: LiDAR
-    query: "@*[lidar=true]*"
-  - key: Radar
+  - key: radar
     label: Radar
-    query: "@*[radar=true]*"
-  - key: Learning
-    label: Learning
-    query: "@*[learning=true]*"
-  - key: SLAM
-    label: SLAM
-    query: "@*[slam=true]*"
-  - key: Dataset
-    label: Datasets
-    query: "@*[dataset=true]*"
+  - key: localization
+    label: Localization
+  - key: place-recognition
+    label: Place Recognition
+  - key: odometry
+    label: Odometry
+  - key: mapping
+    label: Mapping
+  - key: dataset
+    label: Dataset
+  - key: deep-learning
+    label: Deep Learning
+  - key: calibration
+    label: Calibration
+  - key: object-detection
+    label: Object Detection
 ---
 
 <style>
-.filter-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  margin-bottom: 1em;
-  justify-content: center;
-}
-.filter-btn {
-  background: #e0e0e0;
-  color: #222;
-  border: none;
-  border-radius: 18px;
-  padding: 0.2em 0.7em;
-  font-size: 0.8em;
-  cursor: pointer;
-  transition: background 0.2s, box-shadow 0.2s;
-  box-shadow: 0 1px 4px rgba(50,115,220,0.08);
-}
-.filter-btn:hover, .filter-btn.active {
-  background: #54bde7;
-  color: #fff;
-  box-shadow: 0 2px 8px rgba(84, 189, 231,0.15);
-}
-</style>
-<div id="conference-list" class="filter-buttons">
-  {% for conf in page.conferences %}
-    <button class="filter-btn" onclick="showConference('{{ conf.key }}')">{{ conf.label }}</button>
-  {% endfor %}
-  <button class="filter-btn" onclick="showConference('all')">Show All</button>
-</div>
-<div id="topic-list" class="filter-buttons">
-  {% for topic in page.topics %}
-    <button class="filter-btn" onclick="showConference('{{ topic.key }}')">{{ topic.label }}</button>
-  {% endfor %}
-</div>
+  .publication-filter-panel {
+    display: grid;
+    gap: 0.65rem;
+    margin-bottom: 1.25rem;
+  }
 
-<div id="publications-container">
-  {% for conf in page.conferences %}
-    <div id="{{ conf.key }}-publications" style="display:none;">
-      <h3>{{ conf.label }} Publications</h3>
-      <div class="publications">
-        {% bibliography --group_by none --query {{ conf.query }} %}
-      </div>
-    </div>
-  {% endfor %}
-  {% for topic in page.topics %}
-    <div id="{{ topic.key }}-publications" style="display:none;">
-      <h3>{{ topic.label }} Publications</h3>
-      <div class="publications">
-        {% bibliography --group_by none --query {{ topic.query }} %}
-      </div>
-    </div>
-  {% endfor %}
-  <div id="all-publications">
-    <h3>All Publications</h3>
-    <div class="publications">
-      {% bibliography --group_by none %}
-    </div>
+  .publication-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .publication-filters + .publication-filters {
+    padding-top: 0.65rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .publication-filter-btn {
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-bg-color);
+    color: var(--global-text-color);
+    border-radius: 18px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+
+  .publication-filter-btn.active,
+  .publication-filter-btn:hover {
+    color: var(--global-bg-color);
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+
+  .publication-empty {
+    margin: 1rem 0;
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+  }
+</style>
+
+<div class="publication-filter-panel" aria-label="Publication filters">
+  <div class="publication-filters" data-publication-filter-group="scope" aria-label="Publication scope and venue filters">
+    {% for filter in page.scope_filters %}
+      <button
+        class="publication-filter-btn{% if forloop.first %} active{% endif %}"
+        data-publication-filter-group="scope"
+        data-publication-filter="{{ filter.key }}"
+      >
+        {{ filter.label }}
+      </button>
+    {% endfor %}
+  </div>
+
+  <div class="publication-filters" data-publication-filter-group="topic" aria-label="Publication topic filters">
+    {% for filter in page.topic_filters %}
+      <button
+        class="publication-filter-btn{% if forloop.first %} active{% endif %}"
+        data-publication-filter-group="topic"
+        data-publication-filter="{{ filter.key }}"
+      >
+        {{ filter.label }}
+      </button>
+    {% endfor %}
   </div>
 </div>
 
+<h2 id="publication-filter-heading">All Publications</h2>
+<div id="publication-empty-state" class="publication-empty" hidden>No publications match the selected filters.</div>
+
+<div id="publications-container">
+  <section class="publication-section">
+    <div class="publications">
+      {% bibliography --group_by year %}
+    </div>
+  </section>
+</div>
+
 <script>
-function showConference(conf) {
-  // Hide all publication sections
-  var keys = [
-    {% for conf in page.conferences %}"{{ conf.key }}",{% endfor %}
-    {% for topic in page.topics %}"{{ topic.key }}",{% endfor %}
-    "all"
-  ];
-  keys.forEach(function(key) {
-    var el = document.getElementById(key + '-publications');
-    if (el) el.style.display = 'none';
+  const publicationFilterState = {
+    scope: "all",
+    topic: "all-topic",
+  };
+
+  const publicationFilterLabels = {};
+  document.querySelectorAll("[data-publication-filter]").forEach((button) => {
+    publicationFilterLabels[button.dataset.publicationFilter] = button.textContent.trim();
+
+    button.addEventListener("click", () => {
+      const group = button.dataset.publicationFilterGroup;
+      publicationFilterState[group] = button.dataset.publicationFilter;
+      document.querySelectorAll(`[data-publication-filter-group="${group}"][data-publication-filter]`).forEach((item) => item.classList.remove("active"));
+      button.classList.add("active");
+      updatePublicationFilters();
+    });
   });
 
-  // Show the selected section
-  if (conf === 'all') {
-    document.getElementById('all-publications').style.display = 'block';
-  } else {
-    document.getElementById('all-publications').style.display = 'none';
-    var el = document.getElementById(conf + '-publications');
-    if (el) el.style.display = 'block';
+  function publicationEntryMatches(tags, filter) {
+    return filter === "all" || filter === "all-topic" || tags.includes(filter);
   }
 
-  // Update button active state
-  document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-  let btns = document.querySelectorAll('button[onclick="showConference(\''+conf+'\')"]');
-  btns.forEach(btn => btn.classList.add('active'));
-}
+  function updatePublicationFilters() {
+    let visibleCount = 0;
+    document.querySelectorAll(".publication-entry").forEach((entry) => {
+      const tags = (entry.dataset.publicationTags || "").split(/\s+/);
+      const visible = publicationEntryMatches(tags, publicationFilterState.scope) && publicationEntryMatches(tags, publicationFilterState.topic);
+      const listItem = entry.closest("li") || entry;
+      listItem.style.display = visible ? "" : "none";
+      if (visible) visibleCount += 1;
+    });
 
-// Show all by default
-showConference('all');
+    document.querySelectorAll("#publications-container ol.bibliography").forEach((list) => {
+      const hasVisibleItems = Array.from(list.children).some((item) => item.style.display !== "none");
+      list.style.display = hasVisibleItems ? "" : "none";
+      const heading = list.previousElementSibling;
+      if (heading && heading.classList.contains("bibliography")) {
+        heading.style.display = hasVisibleItems ? "" : "none";
+      }
+    });
+
+    const headingParts = [];
+    if (publicationFilterState.scope !== "all") headingParts.push(publicationFilterLabels[publicationFilterState.scope]);
+    if (publicationFilterState.topic !== "all-topic") headingParts.push(publicationFilterLabels[publicationFilterState.topic]);
+    document.getElementById("publication-filter-heading").textContent = `${headingParts.length ? headingParts.join(" · ") : "All"} Publications`;
+    document.getElementById("publication-empty-state").hidden = visibleCount !== 0;
+  }
 </script>

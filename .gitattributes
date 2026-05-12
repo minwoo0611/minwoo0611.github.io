@@ -1,2 +1,9 @@
 # Force LF line endings, needed for Docker to work on Windows
 *.sh text eol=lf
+
+# Keep generated assets and paper files out of text diffs/checks.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary

@@ -2,7 +2,7 @@
 layout: page
 title: latest news
 permalink: /lastest/
-description: Backward-compatible page for the previous latest-news URL.
+description: Paper, conference, visit, tutorial, and teaching updates.
 nav: false
 ---
 

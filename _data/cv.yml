@@ -18,9 +18,9 @@ cv:
         location: Seoul, Korea
         url: https://rpm.snu.ac.kr/
         area: Mechanical Engineering
-        studyType: Ph.D. Student
-        start_date: 2023-09
-        end_date: present
+        studyType: Ph.D. Candidate
+        start_date: Sep 2023
+        end_date: Present
         highlights:
           - "Robust Perception and Mobile Robotics Lab, advised by Prof. Ayoung Kim"
           - "Cumulative GPA: 3.71/4.3"
@@ -30,8 +30,8 @@ cv:
         url: https://rpm.snu.ac.kr/
         area: Mechanical Engineering
         studyType: M.S.
-        start_date: 2021-09
-        end_date: 2023-08
+        start_date: Sep 2021
+        end_date: Aug 2023
         highlights:
           - "Robust Perception and Mobile Robotics Lab, advised by Prof. Ayoung Kim"
           - "Thesis: Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation"
@@ -41,8 +41,8 @@ cv:
         location: Daejeon, Korea
         area: Civil and Environmental Engineering
         studyType: M.S. Student
-        start_date: 2021-03
-        end_date: 2021-08
+        start_date: Mar 2021
+        end_date: Aug 2021
         highlights:
           - "Moved to Seoul National University"
           - "Advised by Prof. Ayoung Kim"
@@ -51,8 +51,8 @@ cv:
         location: Daejeon, Korea
         area: Civil and Environmental Engineering
         studyType: B.S.
-        start_date: 2017-03
-        end_date: 2021-02
+        start_date: Mar 2017
+        end_date: Feb 2021
         highlights:
           - "Graduated cum laude"
           - "Cumulative GPA: 3.76/4.3"
@@ -62,75 +62,72 @@ cv:
         position: Graduate Student Research Assistant
         location: Seoul, Korea
         url: https://rpm.snu.ac.kr/
-        start_date: 2021-09
-        end_date: present
+        start_date: Sep 2021
+        end_date: Present
         summary: LiDAR SLAM, multi-sensor fusion, place recognition, and autonomous navigation research in the RPM Robotics Lab.
 
       - company: Oxford Robotics Institute
         position: Visiting Research Student
         location: Oxford, United Kingdom
-        url: https://ori.ox.ac.uk/
-        start_date: 2025-02
-        end_date: 2025-03
+        url: https://dynamic.robots.ox.ac.uk/
+        start_date: Feb 2025
+        end_date: Mar 2025
         summary: Collaborative research on LiDAR place recognition using vision foundation models and geometric localization in forest environments.
 
       - company: KAIST IRAP Lab
         position: Graduate and Undergraduate Student Researcher
         location: Daejeon, Korea
-        start_date: 2020-03
-        end_date: 2021-08
+        start_date: Mar 2020
+        end_date: Aug 2021
         summary: Research on 3D sensing, mapping, and localization before moving to SNU.
 
     Projects:
       - name: "Collaborative Research with Oxford Robotics Institute DRS Group"
-        date: 2024-present
+        url: https://dynamic.robots.ox.ac.uk/
+        date: "2024-2025"
         highlights:
           - "Implemented LiDAR place recognition using vision foundation models."
           - "Implemented forest localization using inter-tree geometric matching."
 
-      - name: "Autonomous Navigation in Construction Sites"
-        date: 2021-2025
-        highlights:
-          - "Implemented an autonomous navigation module for a mobile robot equipped with LiDAR, IMU, and GPS."
-          - "Demonstrated the system across multiple construction sites."
-
       - name: "Global Re-localization for LiDAR SLAM"
-        date: 2023-2024
+        date: "2023-2024"
         highlights:
           - "Developed global re-localization for scan-to-submap registration in GPS-denied environments."
           - "Integrated the module into an existing SLAM framework and validated it with real-world multi-session data."
 
       - name: "Multiple LiDAR-IMU SLAM"
-        date: 2022-2023
+        date: "2022-2023"
         highlights:
           - "Developed a multiple LiDAR-IMU SLAM framework for trajectory estimation in unstructured environments."
           - "Integrated the module into a hardware platform and validated it in real-world forest environments."
 
-    Publications:
-      - title: "TreeLoc: 6-DoF LiDAR Global Localization in Forests via Inter-Tree Geometric Matching"
-        publisher: "IEEE International Conference on Robotics and Automation (ICRA)"
-        date: 2026
-        url: https://minwoo0611.github.io/assets/pdf/icra2026_treeloc.pdf
+      - name: "Autonomous Navigation in Construction Sites"
+        date: "2021-2025"
+        highlights:
+          - "Implemented an autonomous navigation module for a mobile robot equipped with LiDAR, IMU, and GPS."
+          - "Demonstrated the system across multiple construction sites."
 
-      - title: "ImLPR: Image-based LiDAR Place Recognition using Vision Foundation Models"
-        publisher: "Conference on Robot Learning (CoRL)"
-        date: 2025
-        url: https://arxiv.org/abs/2505.18364
+    Teaching Assistant:
+      - name: "[M3228.000300] Sensor-Based Spatial Intelligence"
+        date: "Sep 2025"
+        highlights:
+          - "Head Teaching Assistant, Seoul National University"
 
-      - title: "HeLiPR: Heterogeneous LiDAR Dataset for inter-LiDAR Place Recognition under Spatiotemporal Variations"
-        publisher: "The International Journal of Robotics Research (IJRR)"
-        date: 2024
-        url: https://journals.sagepub.com/doi/full/10.1177/02783649241242136
+    Tutorials:
+      - name: "Multidisciplinary Creative Class"
+        date: "Apr 2026"
+        highlights:
+          - "Tutorial: ICP and LiDAR Localization"
 
-      - title: "Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation"
-        publisher: "IEEE Robotics and Automation Letters (RA-L)"
-        date: 2023
-        url: https://ieeexplore.ieee.org/document/10138602
+      - name: "Machine Intelligence Industry-Academia Open Lecture and Consulting"
+        date: "Mar 2026"
+        highlights:
+          - "Tutorial: Understanding 3D LiDAR Point Clouds and Their Practical Usage"
 
-    Teaching and Tutorials:
-      - bullet: "[M3228.000300] Sensor-Based Spatial Intelligence, Head Teaching Assistant, Seoul National University (2025). Tutorial: LiDAR Point Cloud Matching."
-      - bullet: "Machine Intelligence Industry-Academia Open Lecture and Consulting (2026). Tutorial: Understanding 3D LiDAR Point Clouds and Their Practical Usage."
-      - bullet: "Multidisciplinary Creative Class (2026). Tutorial: ICP and LiDAR Localization."
+      - name: "LiDAR Point Cloud Matching"
+        date: "Nov 2025"
+        highlights:
+          - "[M3228.000300] Sensor-Based Spatial Intelligence, Seoul National University"
 
     Awards:
       - name: "Paper Award (2nd author)"
@@ -183,6 +180,8 @@ cv:
           - "IEEE Robotics and Automation Letters (RA-L)"
           - "IEEE International Conference on Robotics and Automation (ICRA)"
           - "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+          - "Conference on Neural Information Processing Systems (NeurIPS)"
+          - "Conference on Robot Learning (CoRL)"
           - "IEEE International Conference on Ubiquitous Robots (UR)"
           - "IEEE Transactions on Automation Science and Engineering (T-ASE)"
 

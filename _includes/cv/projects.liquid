@@ -5,27 +5,45 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% for entry in entries %}
     <li class="list-group-item">
-      {% if entry.url %}
-        <h6 class="title font-weight-bold">
-          <a href="{{ entry.url }}" target="_blank">{{ entry.name }}</a>
-        </h6>
-      {% else %}
-        <h6 class="title font-weight-bold">{{ entry.name }}</h6>
-      {% endif %}
+      <div class="row">
+        {% if entry.date %}
+          <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 85px">{{ entry.date }}</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        {% endif %}
 
-      {% if entry.summary %}
-        <p>{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-      {% endif %}
+        <div class="{% if entry.date %}col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0{% else %}col-xs-12 col-sm-12 col-md-12{% endif %}">
+          {% if entry.url %}
+            <h6 class="title font-weight-bold ml-1 ml-md-4">
+              <a href="{{ entry.url }}" target="_blank">{{ entry.name }}</a>
+            </h6>
+          {% else %}
+            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.name }}</h6>
+          {% endif %}
 
-      {% if entry.highlights %}
-        <ul class="items">
-          {% for item in entry.highlights %}
-            <li>
-              <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-            </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
+          {% if entry.summary %}
+            <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          {% endif %}
+
+          {% if entry.highlights %}
+            <ul class="items">
+              {% for item in entry.highlights %}
+                <li>
+                  <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      </div>
     </li>
   {% endfor %}
 </ul>

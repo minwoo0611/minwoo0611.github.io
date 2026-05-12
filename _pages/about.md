@@ -28,4 +28,4 @@ I am a Ph.D. candidate in Mechanical Engineering at Seoul National University (S
 
 Before starting my Ph.D., I received my M.S. in Mechanical Engineering from SNU and my B.S. in Civil and Environmental Engineering from KAIST. During my graduate studies, I have worked on multiple LiDAR-inertial odometry, heterogeneous LiDAR place recognition, radar-LiDAR localization, and large-scale datasets for autonomous navigation.
 
-I was a visiting research student at the Oxford Robotics Institute in 2025, where I collaborated on LiDAR place recognition with vision foundation models and geometric localization in forest environments.
+I was a visiting research student with the [Oxford Robotics Institute DRS Group](https://dynamic.robots.ox.ac.uk/) in 2025, where I collaborated on LiDAR place recognition with vision foundation models and geometric localization in forest environments.

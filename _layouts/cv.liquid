@@ -159,6 +159,9 @@ layout: default
                 or section_title == 'Patents'
                 or section_title == 'Workshop Organization'
                 or section_title == 'Professional Service'
+                or section_title == 'Teaching and Tutorials'
+                or section_title == 'Teaching Assistant'
+                or section_title == 'Tutorials'
               %}
                 {% assign entries = section_entries %}
                 {% include cv/awards.liquid %}
@@ -179,7 +182,7 @@ layout: default
                 {% include cv/certificates.liquid %}
               {% elsif section_title == 'Projects' or section_title == 'Open Source Projects' %}
                 {% assign entries = section_entries %}
-                {% include cv/awards.liquid %}
+                {% include cv/projects.liquid %}
               {% elsif section_title == 'References' %}
                 {% assign entries = section_entries %}
                 {% include cv/references.liquid %}

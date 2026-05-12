@@ -2,7 +2,7 @@
 layout: page
 title: latest news
 permalink: /news/
-description: Research updates, tutorials, visits, and travel notes.
+description: Paper, conference, visit, tutorial, and teaching updates.
 nav: true
 nav_order: 2
 ---

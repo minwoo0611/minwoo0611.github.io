@@ -275,6 +275,12 @@ locations:
     lat: 3.1390
     lng: 101.6869
 
+  - name: Manila
+    country: Philippines
+    region: Philippines
+    lat: 14.5995
+    lng: 120.9842
+
   - name: Sydney
     country: Australia
     region: Australia

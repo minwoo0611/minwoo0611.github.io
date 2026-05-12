@@ -1,0 +1,78 @@
+<style>
+  .news-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .news-filter-btn {
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-bg-color);
+    color: var(--global-text-color);
+    border-radius: 18px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+
+  .news-filter-btn.active,
+  .news-filter-btn:hover {
+    color: var(--global-bg-color);
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+
+  .news-badge {
+    display: inline-block;
+    min-width: 4.5rem;
+    margin-right: 0.5rem;
+    padding: 0.1rem 0.45rem;
+    border-radius: 12px;
+    font-size: 0.72rem;
+    line-height: 1.4;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--global-bg-color);
+    background: var(--global-theme-color);
+  }
+</style>
+
+<div class="news-filters" aria-label="News filters">
+  <button class="news-filter-btn active" data-news-filter="all">All</button>
+  <button class="news-filter-btn" data-news-filter="research">Research</button>
+  <button class="news-filter-btn" data-news-filter="teaching">Teaching</button>
+  <button class="news-filter-btn" data-news-filter="visit">Visits</button>
+  <button class="news-filter-btn" data-news-filter="travel">Travel</button>
+</div>
+
+<div class="news">
+  {% assign news = site.news | reverse %}
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless">
+      {% for item in news %}
+        {% assign category = item.category | default: "research" %}
+        <tr class="news-row" data-news-category="{{ category }}">
+          <th scope="row" style="width: 20%">{{ item.date | date: "%b %d, %Y" }}</th>
+          <td>
+            <span class="news-badge">{{ category }}</span>
+            {{ item.content | remove: "<p>" | remove: "</p>" | emojify }}
+          </td>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll("[data-news-filter]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const filter = button.dataset.newsFilter;
+      document.querySelectorAll("[data-news-filter]").forEach((item) => item.classList.remove("active"));
+      button.classList.add("active");
+      document.querySelectorAll("[data-news-category]").forEach((row) => {
+        row.style.display = filter === "all" || row.dataset.newsCategory === filter ? "" : "none";
+      });
+    });
+  });
+</script>

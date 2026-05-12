@@ -1,0 +1,298 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {{ page.title }}
+    </h1>
+    {% if page.description %}
+      <h3 class="post-description font-weight-bold" style="font-size: 1.25rem;">{{ page.description }}</h3>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="cv">
+      {% assign music = site.data.music.cv %}
+
+      <!-- Bands (current) -->
+      {% if music.sections.Bands.size > 0 %}
+        <a class="anchor" id="bands"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">Bands</h3>
+          <div>
+            {% assign entries = music.sections.Bands %}
+            {% include cv/experience.liquid %}
+          </div>
+        </div>
+      {% endif %}
+
+      <!-- Previous Bands (collapsible) -->
+      {% if music.sections['Previous Bands'].size > 0 %}
+        <a class="anchor" id="previous-bands"></a>
+        <div class="card mt-3 p-3">
+          <details>
+            <summary class="card-title font-weight-medium" style="cursor: pointer;">
+              <h3 class="d-inline card-title font-weight-medium">Previous Bands</h3>
+            </summary>
+            <div class="mt-2">
+              {% assign entries = music.sections['Previous Bands'] %}
+              {% include cv/experience.liquid %}
+            </div>
+          </details>
+        </div>
+      {% endif %}
+
+      <!-- Previous Affiliations (separate section) -->
+      {% if music.sections['Previous Affiliations'].size > 0 %}
+        <a class="anchor" id="previous-affiliations"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">Previous Affiliations</h3>
+          <div>
+            {% assign entries = music.sections['Previous Affiliations'] %}
+            {% include cv/experience.liquid %}
+          </div>
+        </div>
+      {% endif %}
+
+      <!-- Music Education -->
+      {% if music.sections['Music Education'].size > 0 %}
+        <a class="anchor" id="music-education"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">Music Education</h3>
+          <div>
+            {% assign entries = music.sections['Music Education'] %}
+            {% include cv/education.liquid %}
+          </div>
+        </div>
+      {% endif %}
+
+      <!-- Performances (always open) -->
+      {% if music.sections.Performances.size > 0 %}
+        <a class="anchor" id="performances"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">Performances</h3>
+          <div>
+            <ul class="card-text font-weight-light list-group list-group-flush">
+              {% for entry in music.sections.Performances %}
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+                      <table class="table-cv">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                                {{- entry.date | split: '-' | first -}}
+                              </span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="location">
+                                <i class="fa-solid fa-location-dot iconlocation"></i>
+                                {{ entry.venue }}
+                              </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+                      <h6 class="title font-weight-bold ml-1 ml-md-4">
+                        {{ entry.title }}
+                        {% if entry.video_url %}
+                          &nbsp;<a href="{{ entry.video_url }}" target="_blank" rel="noopener noreferrer"
+                            ><i class="fa-brands fa-youtube" style="color: #ff0000;"></i
+                          ></a>
+                        {% endif %}
+                      </h6>
+                      <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">w/ {{ entry.band }}</h6>
+                      {% if entry.setlist %}
+                        <details class="ml-1 ml-md-4">
+                          <summary style="cursor: pointer; font-size: 0.85rem; color: var(--global-theme-color);">Setlist</summary>
+                          <ol style="font-size: 0.85rem; margin-top: 0.5rem; padding-left: 1.5rem;">
+                            {% for song in entry.setlist %}
+                              <li>{{ song }}</li>
+                            {% endfor %}
+                          </ol>
+                        </details>
+                      {% endif %}
+                    </div>
+                  </div>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      {% endif %}
+
+      <!-- Piano Arrangements (collapsible) -->
+      {% if music.sections['Piano Arrangements'].size > 0 %}
+        <a class="anchor" id="piano-arrangements"></a>
+        <div class="card mt-3 p-3">
+          <details>
+            <summary class="card-title font-weight-medium" style="cursor: pointer;">
+              <h3 class="d-inline card-title font-weight-medium">Piano Arrangements</h3>
+            </summary>
+            <div class="mt-2">
+              <ul class="card-text font-weight-light list-group list-group-flush">
+                {% for entry in music.sections['Piano Arrangements'] %}
+                  <li class="list-group-item">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-12">
+                        <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
+                        {% if entry.links %}
+                          <div class="ml-1 ml-md-4">
+                            {% for link in entry.links %}
+                              <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" class="badge badge-pill badge-primary mr-1">
+                                {% if link.label == 'YouTube' %}
+                                  <i class="fa-brands fa-youtube"></i>
+                                {% elsif link.label == 'SoundCloud' %}
+                                  <i class="fa-brands fa-soundcloud"></i>
+                                {% endif %}
+                                {{ link.label }}
+                              </a>
+                            {% endfor %}
+                          </div>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </details>
+        </div>
+      {% endif %}
+
+      <!-- Musicals (collapsible) -->
+      {% if music.sections.Musicals.size > 0 %}
+        <a class="anchor" id="musicals"></a>
+        <div class="card mt-3 p-3">
+          <details>
+            <summary class="card-title font-weight-medium" style="cursor: pointer;">
+              <h3 class="d-inline card-title font-weight-medium">Musicals</h3>
+            </summary>
+            <div class="mt-2">
+              <ul class="card-text font-weight-light list-group list-group-flush">
+                {% for entry in music.sections.Musicals %}
+                  <li class="list-group-item">
+                    <div class="row">
+                      <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+                        <table class="table-cv">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                                  {{- entry.date -}}
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+                        <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
+                        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ entry.role }}</h6>
+                        {% if entry.links %}
+                          <div class="ml-1 ml-md-4">
+                            {% for link in entry.links %}
+                              <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" class="badge badge-pill badge-primary mr-1">
+                                <i class="fa-brands fa-youtube"></i> {{ link.label }}
+                              </a>
+                            {% endfor %}
+                          </div>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </details>
+        </div>
+      {% endif %}
+
+      <!-- Original Music (collapsible) -->
+      {% if music.sections['Original Music'].size > 0 %}
+        <a class="anchor" id="original-music"></a>
+        <div class="card mt-3 p-3">
+          <details>
+            <summary class="card-title font-weight-medium" style="cursor: pointer;">
+              <h3 class="d-inline card-title font-weight-medium">Original Music</h3>
+            </summary>
+            <div class="mt-2">
+              <p class="ml-1 ml-md-4 text-muted" style="font-size: 0.85rem;">
+                <b>C</b>: Composition &middot; <b>A</b>: Arrangement &middot; <b>M</b>: Mix &middot; <b>L</b>: Live Session
+              </p>
+              <ul class="card-text font-weight-light list-group list-group-flush">
+                {% for entry in music.sections['Original Music'] %}
+                  <li class="list-group-item">
+                    <div class="row">
+                      <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+                        <table class="table-cv">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                                  {{- entry.date -}}
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+                        <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
+                        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ entry.role }}</h6>
+                        {% if entry.links %}
+                          <div class="ml-1 ml-md-4">
+                            {% for link in entry.links %}
+                              <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" class="badge badge-pill badge-primary mr-1">
+                                {% if link.label == 'YouTube' %}
+                                  <i class="fa-brands fa-youtube"></i>
+                                {% elsif link.label == 'SoundCloud' %}
+                                  <i class="fa-brands fa-soundcloud"></i>
+                                {% endif %}
+                                {{ link.label }}
+                              </a>
+                            {% endfor %}
+                          </div>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </details>
+        </div>
+      {% endif %}
+
+      <!-- Skills -->
+      {% if music.sections.Skills.size > 0 %}
+        <a class="anchor" id="skills"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">Skills</h3>
+          <div>
+            {% assign entries = music.sections.Skills %}
+            {% include cv/skills.liquid %}
+          </div>
+        </div>
+      {% endif %}
+
+      <!-- Achievements -->
+      {% if music.sections.Achievements.size > 0 %}
+        <a class="anchor" id="achievements"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">Achievements</h3>
+          <div>
+            {% assign entries = music.sections.Achievements %}
+            {% include cv/awards.liquid %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </article>
+</div>

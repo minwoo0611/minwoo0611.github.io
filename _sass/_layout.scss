@@ -1,77 +1,58 @@
-// Layout
-//
-// Styles for managing the structural hierarchy of the site.
+/******************************************************************************
+ * Content
+ ******************************************************************************/
+
+@use "variables" as v;
+
+body {
+  padding-bottom: 70px;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: 66px;
+  }
+}
+
+body.fixed-top-nav {
+  // Add some padding for the nav-bar.
+  padding-top: 57px;
+}
+
+body.sticky-bottom-footer {
+  // Remove padding below footer.
+  padding-bottom: 0;
+}
 
 .container {
-  padding: 0;
-  margin: 0;
+  max-width: v.$max-content-width;
 }
 
-.home-header {
-  margin-top: -1em;
-  margin-bottom: var(--spacer-3);
-}
-
-.content {
-  padding-top: var(--spacer-2);
-  padding-left: var(--spacer-2);
-  padding-right: var(--spacer-2);
-  margin-left:  auto;
-  margin-right: auto;
-  min-height: 100vh;
-}
-
-.sidebar-left {
-  display: flex;
-  padding: var(--spacer);
-  background: center / cover;
-  height: 100vh;
-}
-
-footer {
-  margin-top: var(--spacer-3);
-  margin-bottom: var(--spacer-3);
-}
-
-@media (min-width: $md-width) {
-  .content {
-    padding-top: var(--spacer-3);
-    padding-left: var(--spacer-3);
-    padding-right: var(--spacer-3);
-    margin-left: 25%;
-  }
-
-  .sidebar-left {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-  }
-
-  .home-header {
-    margin-top: -2em;
-  }
-}
-
-@media (min-width: $lg-width) {
-  .sidebar-right {
-    display: block;
-  }
-}
-
-@media (max-width: $lg-width) {
-  .sidebar-right {
-    display: none;
-  }
-}
-
-@media (max-width: $md-width) {
-  .content {
+// Profile
+.profile {
+  img {
     width: 100%;
   }
 }
 
-@media (min-width: $md-width) and (max-width: $lg-width) {
-  .content {
-    width: 75%;
-  }
-}
+// Content layout uses Bootstrap's grid system with responsive columns
+// Main content flows naturally through container-mt-5 and Bootstrap grid classes
+// See _layouts/default.liquid and _includes/projects.liquid for examples
+
+/******************************************************************************
+ * Publications
+ ******************************************************************************/
+
+// Publications layout is defined in _includes/bib_search.liquid
+// Uses jekyll-scholar for BibTeX parsing and Bootstrap cards for display
+
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+
+// TODO: redefine projects layout.

@@ -1,0 +1,81 @@
+{% comment %}
+  Unified awards entry renderer for both formats
+  Supports both legacy fields (title, awarder, summary) and RenderCV fields (name, highlights)
+{% endcomment %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    <li class="list-group-item">
+      <div class="row">
+        {% capture entry_title %}{{ entry.title | default: entry.name }}{% endcapture %}
+
+        {% capture start_date %}
+          {% if entry.date %}{{ entry.date }}{% endif %}
+        {% endcapture %}
+
+        {% if start_date != '' %}
+          <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                      {{- start_date | split: '-' | slice: 0, 1 | join: '' -}}
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+            {% if entry.url %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">
+                <a href="{{ entry.url }}">{{ entry_title }}</a>
+              </h6>
+            {% elsif entry_title != '' %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry_title }}</h6>
+            {% endif %}
+
+            {% if entry.awarder %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
+            {% endif %}
+
+            {% if entry.summary %}
+              <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            {% endif %}
+
+            {% if entry.highlights %}
+              {% for highlight in entry.highlights %}
+                <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ highlight }}</h6>
+              {% endfor %}
+            {% endif %}
+          </div>
+        {% else %}
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            {% if entry.url %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">
+                <a href="{{ entry.url }}">{{ entry_title }}</a>
+              </h6>
+            {% elsif entry_title != '' %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry_title }}</h6>
+            {% endif %}
+
+            {% if entry.awarder %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
+            {% endif %}
+
+            {% if entry.summary %}
+              <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            {% endif %}
+
+            {% if entry.highlights %}
+              {% for highlight in entry.highlights %}
+                <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ highlight }}</h6>
+              {% endfor %}
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>

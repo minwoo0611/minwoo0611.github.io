@@ -1,0 +1,214 @@
+cv:
+  name: Minwoo Jung
+  label: Ph.D. Candidate
+  email: moonshot@snu.ac.kr
+  location: Seoul, KR
+  website: https://minwoo0611.github.io
+  image: ""
+  summary: >
+    Ph.D. candidate in Mechanical Engineering at Seoul National University,
+    advised by Prof. Ayoung Kim in the Robust Perception and Mobile Robotics
+    Lab. Research interests include LiDAR SLAM, sensor fusion, and place
+    recognition for robust localization in heterogeneous and long-term
+    environments.
+
+  sections:
+    Education:
+      - institution: Seoul National University (SNU)
+        location: Seoul, Korea
+        url: https://rpm.snu.ac.kr/
+        area: Mechanical Engineering
+        studyType: Ph.D. Student
+        start_date: 2023-09
+        end_date: present
+        highlights:
+          - "Robust Perception and Mobile Robotics Lab, advised by Prof. Ayoung Kim"
+          - "Cumulative GPA: 3.71/4.3"
+
+      - institution: Seoul National University (SNU)
+        location: Seoul, Korea
+        url: https://rpm.snu.ac.kr/
+        area: Mechanical Engineering
+        studyType: M.S.
+        start_date: 2021-09
+        end_date: 2023-08
+        highlights:
+          - "Robust Perception and Mobile Robotics Lab, advised by Prof. Ayoung Kim"
+          - "Thesis: Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation"
+          - "Cumulative GPA: 4.06/4.3"
+
+      - institution: Korea Advanced Institute of Science and Technology (KAIST)
+        location: Daejeon, Korea
+        area: Civil and Environmental Engineering
+        studyType: M.S. Student
+        start_date: 2021-03
+        end_date: 2021-08
+        highlights:
+          - "Moved to Seoul National University"
+          - "Advised by Prof. Ayoung Kim"
+
+      - institution: Korea Advanced Institute of Science and Technology (KAIST)
+        location: Daejeon, Korea
+        area: Civil and Environmental Engineering
+        studyType: B.S.
+        start_date: 2017-03
+        end_date: 2021-02
+        highlights:
+          - "Graduated cum laude"
+          - "Cumulative GPA: 3.76/4.3"
+
+    Experience:
+      - company: Seoul National University
+        position: Graduate Student Research Assistant
+        location: Seoul, Korea
+        url: https://rpm.snu.ac.kr/
+        start_date: 2021-09
+        end_date: present
+        summary: LiDAR SLAM, multi-sensor fusion, place recognition, and autonomous navigation research in the RPM Robotics Lab.
+
+      - company: Oxford Robotics Institute
+        position: Visiting Research Student
+        location: Oxford, United Kingdom
+        url: https://ori.ox.ac.uk/
+        start_date: 2025-02
+        end_date: 2025-03
+        summary: Collaborative research on LiDAR place recognition using vision foundation models and geometric localization in forest environments.
+
+      - company: KAIST IRAP Lab
+        position: Graduate and Undergraduate Student Researcher
+        location: Daejeon, Korea
+        start_date: 2020-03
+        end_date: 2021-08
+        summary: Research on 3D sensing, mapping, and localization before moving to SNU.
+
+    Projects:
+      - name: "Collaborative Research with Oxford Robotics Institute DRS Group"
+        date: 2024-present
+        highlights:
+          - "Implemented LiDAR place recognition using vision foundation models."
+          - "Implemented forest localization using inter-tree geometric matching."
+
+      - name: "Autonomous Navigation in Construction Sites"
+        date: 2021-2025
+        highlights:
+          - "Implemented an autonomous navigation module for a mobile robot equipped with LiDAR, IMU, and GPS."
+          - "Demonstrated the system across multiple construction sites."
+
+      - name: "Global Re-localization for LiDAR SLAM"
+        date: 2023-2024
+        highlights:
+          - "Developed global re-localization for scan-to-submap registration in GPS-denied environments."
+          - "Integrated the module into an existing SLAM framework and validated it with real-world multi-session data."
+
+      - name: "Multiple LiDAR-IMU SLAM"
+        date: 2022-2023
+        highlights:
+          - "Developed a multiple LiDAR-IMU SLAM framework for trajectory estimation in unstructured environments."
+          - "Integrated the module into a hardware platform and validated it in real-world forest environments."
+
+    Publications:
+      - title: "TreeLoc: 6-DoF LiDAR Global Localization in Forests via Inter-Tree Geometric Matching"
+        publisher: "IEEE International Conference on Robotics and Automation (ICRA)"
+        date: 2026
+        url: https://minwoo0611.github.io/assets/pdf/icra2026_treeloc.pdf
+
+      - title: "ImLPR: Image-based LiDAR Place Recognition using Vision Foundation Models"
+        publisher: "Conference on Robot Learning (CoRL)"
+        date: 2025
+        url: https://arxiv.org/abs/2505.18364
+
+      - title: "HeLiPR: Heterogeneous LiDAR Dataset for inter-LiDAR Place Recognition under Spatiotemporal Variations"
+        publisher: "The International Journal of Robotics Research (IJRR)"
+        date: 2024
+        url: https://journals.sagepub.com/doi/full/10.1177/02783649241242136
+
+      - title: "Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation"
+        publisher: "IEEE Robotics and Automation Letters (RA-L)"
+        date: 2023
+        url: https://ieeexplore.ieee.org/document/10138602
+
+    Teaching and Tutorials:
+      - bullet: "[M3228.000300] Sensor-Based Spatial Intelligence, Head Teaching Assistant, Seoul National University (2025). Tutorial: LiDAR Point Cloud Matching."
+      - bullet: "Machine Intelligence Industry-Academia Open Lecture and Consulting (2026). Tutorial: Understanding 3D LiDAR Point Clouds and Their Practical Usage."
+      - bullet: "Multidisciplinary Creative Class (2026). Tutorial: ICP and LiDAR Localization."
+
+    Awards:
+      - name: "Paper Award (2nd author)"
+        date: 2025
+        highlights:
+          - "Korea Robotics Society (KROS)"
+
+      - name: "Best Overall Presentation Award (2nd author)"
+        date: 2023
+        highlights:
+          - "IROS Workshop"
+
+      - name: "Best M.S. Thesis Award"
+        date: 2023
+        highlights:
+          - "Seoul National University"
+
+      - name: "Ranked 4th in the LiDAR Single Session category"
+        date: 2023
+        highlights:
+          - "Hilti SLAM Challenge"
+
+      - name: "Graduation Citation"
+        date: 2021
+        highlights:
+          - "Korea Concrete Institute"
+
+      - name: "Development Foundation Chairman Award"
+        date: 2021
+        highlights:
+          - "KAIST"
+
+      - name: "Cum Laude"
+        date: 2021
+        highlights:
+          - "Civil and Environmental Engineering, KAIST"
+
+      - name: "Dean's List"
+        date: 2019
+        highlights:
+          - "Civil and Environmental Engineering, KAIST"
+
+    Professional Service:
+      - name: "Reviewer"
+        highlights:
+          - "The International Journal of Robotics Research (IJRR)"
+          - "The International Conference on Control, Automation and Systems (ICCAS)"
+          - "The International Journal of Digital Earth (IJDE)"
+          - "IEEE Transactions on Robotics (T-RO)"
+          - "IEEE Robotics and Automation Letters (RA-L)"
+          - "IEEE International Conference on Robotics and Automation (ICRA)"
+          - "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+          - "IEEE International Conference on Ubiquitous Robots (UR)"
+          - "IEEE Transactions on Automation Science and Engineering (T-ASE)"
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords:
+          - C/C++
+          - Python
+          - MATLAB
+          - PyTorch
+
+      - name: Robotics
+        icon: fa-solid fa-robot
+        keywords:
+          - LiDAR SLAM
+          - Sensor Fusion
+          - Place Recognition
+          - Autonomous Navigation
+
+      - name: Tools
+        icon: fa-solid fa-terminal
+        keywords:
+          - ROS
+          - GTSAM
+          - SymForce
+          - Docker
+          - Linux
+          - LaTeX

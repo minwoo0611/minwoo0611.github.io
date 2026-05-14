@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - minwoo0611
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - minwoo0611/MA-LIO
+  - minwoo0611/HeLiOS
+  - minwoo0611/TreeLoc
+  - minwoo0611/Awesome-3D-LiDAR-Datasets
+  - minwoo0611/HeLiPR-File-Player
+  - minwoo0611/ImLPR

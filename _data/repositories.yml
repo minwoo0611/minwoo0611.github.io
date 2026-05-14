@@ -1,12 +1,73 @@
 github_users:
-  - minwoo0611
+  - username: minwoo0611
+    name: Minwoo Jung
+    url: https://github.com/minwoo0611
+    avatar: https://avatars.githubusercontent.com/u/57853087?v=4
+    bio: Ph.D. candidate in robotics, LiDAR perception, localization, and sensor fusion.
+    public_repos: 34
+    followers: 203
+    following: 80
 
 repo_description_lines_max: 2
 
 github_repos:
-  - minwoo0611/MA-LIO
-  - minwoo0611/HeLiOS
-  - minwoo0611/TreeLoc
-  - minwoo0611/Awesome-3D-LiDAR-Datasets
-  - minwoo0611/HeLiPR-File-Player
-  - minwoo0611/ImLPR
+  - owner: minwoo0611
+    name: MA-LIO
+    url: https://github.com/minwoo0611/MA-LIO
+    description: Asynchronous Multiple LiDAR-Inertial Odometry using point-wise inter-LiDAR uncertainty propagation.
+    language: C++
+    language_color: "#f34b7d"
+    stars: 385
+    forks: 46
+    updated: 2026-05-13
+    topics: [LiDAR, Inertial, Odometry]
+  - owner: minwoo0611
+    name: HeLiOS
+    url: https://github.com/minwoo0611/HeLiOS
+    description: ICRA 2025 heterogeneous LiDAR place recognition with overlap-based learning and a local spherical transformer.
+    language: Python
+    language_color: "#3572A5"
+    stars: 103
+    forks: 2
+    updated: 2026-05-06
+    topics: [LiDAR, Place Recognition, Deep Learning]
+  - owner: minwoo0611
+    name: TreeLoc
+    url: https://github.com/minwoo0611/TreeLoc
+    description: 6-DoF LiDAR global localization in forests via inter-tree geometric matching.
+    language: C++
+    language_color: "#f34b7d"
+    stars: 24
+    forks: 0
+    updated: 2026-05-12
+    topics: [LiDAR, Localization, Forest]
+  - owner: minwoo0611
+    name: Awesome-3D-LiDAR-Datasets
+    url: https://github.com/minwoo0611/Awesome-3D-LiDAR-Datasets
+    description: A curated collection of public 3D LiDAR datasets.
+    language: Dataset list
+    language_color: "#6f42c1"
+    stars: 429
+    forks: 38
+    updated: 2026-05-09
+    topics: [Dataset, LiDAR, Survey]
+  - owner: minwoo0611
+    name: HeLiPR-File-Player
+    url: https://github.com/minwoo0611/HeLiPR-File-Player
+    description: File player tools for the HeLiPR heterogeneous LiDAR place recognition dataset.
+    language: C++
+    language_color: "#f34b7d"
+    stars: 54
+    forks: 7
+    updated: 2026-03-20
+    topics: [Dataset, LiDAR, Tools]
+  - owner: minwoo0611
+    name: ImLPR
+    url: https://github.com/minwoo0611/ImLPR
+    description: Image-based LiDAR place recognition using vision foundation models.
+    language: Python
+    language_color: "#3572A5"
+    stars: 64
+    forks: 2
+    updated: 2026-05-07
+    topics: [LiDAR, Place Recognition, Foundation Models]

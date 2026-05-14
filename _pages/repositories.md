@@ -250,9 +250,6 @@ nav_order: 5
             <span><span data-repo-stars>{{ repo.stars }}</span> stars</span>
             <span><span data-repo-forks>{{ repo.forks }}</span> forks</span>
           </div>
-          <div class="repository-card-meta">
-            <span>Updated <span data-repo-updated>{{ repo.updated | date: "%b %-d, %Y" }}</span></span>
-          </div>
         </div>
         <a class="repository-open-link" href="{{ repo.url }}" rel="external nofollow noopener" target="_blank">Open repository</a>
       </div>
@@ -270,11 +267,6 @@ nav_order: 5
     };
 
     const numberFormatter = new Intl.NumberFormat("en-US");
-    const dateFormatter = new Intl.DateTimeFormat("en-US", {
-      month: "short",
-      day: "numeric",
-      year: "numeric",
-    });
 
     const setText = (root, selector, value) => {
       const target = root.querySelector(selector);
@@ -312,7 +304,6 @@ nav_order: 5
         setText(card, "[data-repo-stars]", numberFormatter.format(repo.stargazers_count));
         setText(card, "[data-repo-forks]", numberFormatter.format(repo.forks_count));
         setText(card, "[data-repo-language]", repo.language || "Repository");
-        setText(card, "[data-repo-updated]", dateFormatter.format(new Date(repo.updated_at)));
 
         const languageDot = card.querySelector(".repository-language-dot");
         if (languageDot && repo.language && languageColors[repo.language]) {

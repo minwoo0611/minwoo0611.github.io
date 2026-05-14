@@ -2,25 +2,19 @@
 <style>
   .github-trophy-panel {
     margin: 0.6rem 0 1.5rem;
-    overflow-x: auto;
+    overflow: hidden;
   }
 
   .github-trophy-panel a {
     display: block;
-    min-width: 760px;
   }
 
   .github-trophy-panel img {
-    width: 110%;
-    max-width: 110%;
+    display: block;
+    width: 100%;
+    max-width: 100%;
     height: auto;
     border: 0;
-  }
-
-  @media (max-width: 768px) {
-    .github-trophy-panel {
-      padding-bottom: 0.2rem;
-    }
   }
 </style>
 
@@ -28,7 +22,6 @@
   <a href="https://github.com/{{ trophy_username }}" rel="external nofollow noopener" target="_blank">
     <img
       src="https://github-profile-trophy.vercel.app/?username={{ trophy_username }}&theme=flat&column=9"
-      width="110%"
       alt="GitHub profile trophies for {{ trophy_username }}"
       loading="lazy"
     >

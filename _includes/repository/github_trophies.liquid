@@ -1,0 +1,36 @@
+{% assign trophy_username = include.username | default: 'minwoo0611' %}
+<style>
+  .github-trophy-panel {
+    margin: 0.6rem 0 1.5rem;
+    overflow-x: auto;
+  }
+
+  .github-trophy-panel a {
+    display: block;
+    min-width: 760px;
+  }
+
+  .github-trophy-panel img {
+    width: 110%;
+    max-width: 110%;
+    height: auto;
+    border: 0;
+  }
+
+  @media (max-width: 768px) {
+    .github-trophy-panel {
+      padding-bottom: 0.2rem;
+    }
+  }
+</style>
+
+<div class="github-trophy-panel">
+  <a href="https://github.com/{{ trophy_username }}" rel="external nofollow noopener" target="_blank">
+    <img
+      src="https://github-profile-trophy.vercel.app/?username={{ trophy_username }}&theme=flat&column=9"
+      width="110%"
+      alt="GitHub profile trophies for {{ trophy_username }}"
+      loading="lazy"
+    >
+  </a>
+</div>

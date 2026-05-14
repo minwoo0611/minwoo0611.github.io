@@ -177,7 +177,7 @@ nav_order: 5
 ## GitHub user
 
 {% for user in site.data.repositories.github_users %}
-  <section class="repository-profile">
+  <section class="repository-profile" data-github-user="{{ user.username }}">
     <img class="repository-profile-avatar" src="{{ user.avatar }}" alt="{{ user.name }}">
     <div>
       <div class="repository-profile-name">
@@ -186,9 +186,9 @@ nav_order: 5
       </div>
       <p>{{ user.bio }}</p>
       <div class="repository-profile-meta">
-        <span>{{ user.public_repos }} public repositories</span>
-        <span>{{ user.followers }} followers</span>
-        <span>{{ user.following }} following</span>
+        <span><span data-github-user-public-repos>{{ user.public_repos }}</span> public repositories</span>
+        <span><span data-github-user-followers>{{ user.followers }}</span> followers</span>
+        <span><span data-github-user-following>{{ user.following }}</span> following</span>
         <a href="{{ user.url }}" rel="external nofollow noopener" target="_blank">View GitHub profile</a>
       </div>
     </div>
@@ -213,13 +213,21 @@ nav_order: 5
 {% endif %}
 {% endif %}
 
+## GitHub trophies
+
+{% include repository/github_trophies.liquid username="minwoo0611" %}
+
+---
+
 {% if site.data.repositories.github_repos %}
 
 ## GitHub repositories
 
 <div class="repository-grid">
   {% for repo in site.data.repositories.github_repos %}
-    <article class="repository-card">
+    {% assign repo_url_parts = repo.url | split: "/" %}
+    {% assign github_repo_name = repo_url_parts | last %}
+    <article class="repository-card" data-github-owner="{{ repo.owner }}" data-github-repo="{{ github_repo_name }}">
       <div class="repository-card-header">
         <h2 class="repository-card-title">
           <a href="{{ repo.url }}" rel="external nofollow noopener" target="_blank">{{ repo.name }}</a>
@@ -237,13 +245,13 @@ nav_order: 5
           <div class="repository-card-meta">
             <span class="repository-language">
               <span class="repository-language-dot" style="background-color: {{ repo.language_color }}"></span>
-              {{ repo.language }}
+              <span data-repo-language>{{ repo.language }}</span>
             </span>
-            <span>{{ repo.stars }} stars</span>
-            <span>{{ repo.forks }} forks</span>
+            <span><span data-repo-stars>{{ repo.stars }}</span> stars</span>
+            <span><span data-repo-forks>{{ repo.forks }}</span> forks</span>
           </div>
           <div class="repository-card-meta">
-            <span>Updated {{ repo.updated | date: "%b %-d, %Y" }}</span>
+            <span>Updated <span data-repo-updated>{{ repo.updated | date: "%b %-d, %Y" }}</span></span>
           </div>
         </div>
         <a class="repository-open-link" href="{{ repo.url }}" rel="external nofollow noopener" target="_blank">Open repository</a>
@@ -251,5 +259,70 @@ nav_order: 5
     </article>
   {% endfor %}
 </div>
+
+<script>
+  (() => {
+    const languageColors = {
+      "C++": "#f34b7d",
+      JavaScript: "#f1e05a",
+      Python: "#3572A5",
+      TypeScript: "#3178c6",
+    };
+
+    const numberFormatter = new Intl.NumberFormat("en-US");
+    const dateFormatter = new Intl.DateTimeFormat("en-US", {
+      month: "short",
+      day: "numeric",
+      year: "numeric",
+    });
+
+    const setText = (root, selector, value) => {
+      const target = root.querySelector(selector);
+      if (target && value !== null && value !== undefined) {
+        target.textContent = value;
+      }
+    };
+
+    const fetchGitHubJson = async (url) => {
+      const response = await fetch(url, {
+        headers: { Accept: "application/vnd.github+json" },
+      });
+      if (!response.ok) {
+        throw new Error(`GitHub API request failed: ${response.status}`);
+      }
+      return response.json();
+    };
+
+    document.querySelectorAll("[data-github-user]").forEach(async (profile) => {
+      try {
+        const username = profile.dataset.githubUser;
+        const user = await fetchGitHubJson(`https://api.github.com/users/${username}`);
+        setText(profile, "[data-github-user-public-repos]", numberFormatter.format(user.public_repos));
+        setText(profile, "[data-github-user-followers]", numberFormatter.format(user.followers));
+        setText(profile, "[data-github-user-following]", numberFormatter.format(user.following));
+      } catch (error) {
+        console.warn(error);
+      }
+    });
+
+    document.querySelectorAll("[data-github-owner][data-github-repo]").forEach(async (card) => {
+      try {
+        const { githubOwner, githubRepo } = card.dataset;
+        const repo = await fetchGitHubJson(`https://api.github.com/repos/${githubOwner}/${githubRepo}`);
+        setText(card, "[data-repo-stars]", numberFormatter.format(repo.stargazers_count));
+        setText(card, "[data-repo-forks]", numberFormatter.format(repo.forks_count));
+        setText(card, "[data-repo-language]", repo.language || "Repository");
+        setText(card, "[data-repo-updated]", dateFormatter.format(new Date(repo.updated_at)));
+
+        const languageDot = card.querySelector(".repository-language-dot");
+        if (languageDot && repo.language && languageColors[repo.language]) {
+          languageDot.style.backgroundColor = languageColors[repo.language];
+        }
+      } catch (error) {
+        console.warn(error);
+      }
+    });
+  })();
+</script>
 
 {% endif %}

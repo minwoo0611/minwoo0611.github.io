@@ -22,6 +22,16 @@ github_repos:
     updated: 2026-05-13
     topics: [LiDAR, Inertial, Odometry]
   - owner: minwoo0611
+    name: IA-LIO-SAM
+    url: https://github.com/minwoo0611/IA_LIO_SAM
+    description: Enhanced LIO-SAM using intensity and ambient channels from OUSTER LiDAR.
+    language: C++
+    language_color: "#f34b7d"
+    stars: 177
+    forks: 22
+    updated: 2026-05-05
+    topics: [LiDAR, Inertial, SLAM]
+  - owner: minwoo0611
     name: HeLiOS
     url: https://github.com/minwoo0611/HeLiOS
     description: ICRA 2025 heterogeneous LiDAR place recognition with overlap-based learning and a local spherical transformer.
@@ -31,6 +41,16 @@ github_repos:
     forks: 2
     updated: 2026-05-06
     topics: [LiDAR, Place Recognition, Deep Learning]
+  - owner: minwoo0611
+    name: ImLPR
+    url: https://github.com/minwoo0611/ImLPR
+    description: Image-based LiDAR place recognition using vision foundation models.
+    language: Python
+    language_color: "#3572A5"
+    stars: 64
+    forks: 2
+    updated: 2026-05-07
+    topics: [LiDAR, Place Recognition, Foundation Models]
   - owner: minwoo0611
     name: TreeLoc
     url: https://github.com/minwoo0611/TreeLoc
@@ -42,15 +62,25 @@ github_repos:
     updated: 2026-05-12
     topics: [LiDAR, Localization, Forest]
   - owner: minwoo0611
-    name: Awesome-3D-LiDAR-Datasets
-    url: https://github.com/minwoo0611/Awesome-3D-LiDAR-Datasets
-    description: A curated collection of public 3D LiDAR datasets.
-    language: Dataset list
-    language_color: "#6f42c1"
-    stars: 429
-    forks: 38
-    updated: 2026-05-09
-    topics: [Dataset, LiDAR, Survey]
+    name: HeLiPR-Pointcloud-Toolbox
+    url: https://github.com/minwoo0611/HeLiPR-Pointcloud-Toolbox
+    description: Point cloud processing and analysis tools for the HeLiPR dataset.
+    language: C++
+    language_color: "#f34b7d"
+    stars: 45
+    forks: 1
+    updated: 2026-04-25
+    topics: [HeLiPR, Point Cloud, LiDAR]
+  - owner: minwoo0611
+    name: HeLiPR-Place-Recognition
+    url: https://github.com/minwoo0611/HeLiPR-Place-Recognition
+    description: Place recognition methods for the HeLiPR heterogeneous LiDAR dataset.
+    language: Python
+    language_color: "#3572A5"
+    stars: 39
+    forks: 1
+    updated: 2026-02-23
+    topics: [HeLiPR, Place Recognition, LiDAR]
   - owner: minwoo0611
     name: HeLiPR-File-Player
     url: https://github.com/minwoo0611/HeLiPR-File-Player
@@ -60,14 +90,14 @@ github_repos:
     stars: 54
     forks: 7
     updated: 2026-03-20
-    topics: [Dataset, LiDAR, Tools]
+    topics: [HeLiPR, Dataset, Tools]
   - owner: minwoo0611
-    name: ImLPR
-    url: https://github.com/minwoo0611/ImLPR
-    description: Image-based LiDAR place recognition using vision foundation models.
-    language: Python
-    language_color: "#3572A5"
-    stars: 64
-    forks: 2
-    updated: 2026-05-07
-    topics: [LiDAR, Place Recognition, Foundation Models]
+    name: Awesome-3D-LiDAR-Datasets
+    url: https://github.com/minwoo0611/Awesome-3D-LiDAR-Datasets
+    description: A curated collection of public 3D LiDAR datasets.
+    language: Dataset list
+    language_color: "#6f42c1"
+    stars: 429
+    forks: 38
+    updated: 2026-05-09
+    topics: [Dataset, LiDAR, Survey]

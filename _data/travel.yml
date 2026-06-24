@@ -128,6 +128,11 @@ locations:
     region: Europe
     lat: 47.5622
     lng: 13.6493
+  - name: Vienna
+    country: Austria
+    region: Europe
+    lat: 48.2082
+    lng: 16.3738
   - name: Frankfurt
     country: Germany
     region: Europe
@@ -178,6 +183,11 @@ locations:
     region: Europe
     lat: 50.9375
     lng: 6.9603
+  - name: Dresden
+    country: Germany
+    region: Europe
+    lat: 51.0504
+    lng: 13.7373
   - name: Malaga
     country: Spain
     region: Europe
@@ -218,6 +228,16 @@ locations:
     region: Europe
     lat: 49.7384
     lng: 13.3736
+  - name: Cesky Krumlov
+    country: Czech Republic
+    region: Europe
+    lat: 48.8127
+    lng: 14.3175
+  - name: Budapest
+    country: Hungary
+    region: Europe
+    lat: 47.4979
+    lng: 19.0402
   - name: Paris
     country: France
     region: Europe

@@ -23,6 +23,8 @@ scope_filters:
     label: RA-L
   - key: ijrr
     label: IJRR
+  - key: tfr
+    label: T-FR
   - key: isr
     label: ISR
   - key: iccas

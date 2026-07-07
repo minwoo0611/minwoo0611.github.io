@@ -8,8 +8,9 @@ cv:
   summary: >
     Ph.D. candidate in Mechanical Engineering at Seoul National University,
     advised by Prof. Ayoung Kim in the Robust Perception and Mobile Robotics
-    Lab. Research interests include LiDAR SLAM, sensor fusion, and place
-    recognition for robust localization in heterogeneous and long-term
+    Lab. Research interests include range sensor, SLAM, global localization,
+    sensor fusion, world models, and field robotics, with an emphasis on robust
+    LiDAR localization and long-term place recognition in unstructured
     environments.
 
   sections:
@@ -64,7 +65,7 @@ cv:
         url: https://rpm.snu.ac.kr/
         start_date: Sep 2021
         end_date: Present
-        summary: LiDAR SLAM, multi-sensor fusion, place recognition, and autonomous navigation research in the RPM Robotics Lab.
+        summary: Research on range sensor, SLAM, global localization, sensor fusion, world models, and field robotics in the RPM Robotics Lab.
 
       - company: Oxford Robotics Institute
         position: Visiting Research Student
@@ -72,7 +73,7 @@ cv:
         url: https://dynamic.robots.ox.ac.uk/
         start_date: Feb 2025
         end_date: Mar 2025
-        summary: Collaborative research on LiDAR place recognition using vision foundation models and geometric localization in forest environments.
+        summary: Visiting research student at Oxford Robotics Institute, working with the DRS Group on LiDAR place recognition using vision foundation models and forest localization via inter-tree geometric matching.
 
       - company: KAIST IRAP Lab
         position: Graduate and Undergraduate Student Researcher
@@ -84,7 +85,7 @@ cv:
     Projects:
       - name: "Collaborative Research with Oxford Robotics Institute DRS Group"
         url: https://dynamic.robots.ox.ac.uk/
-        date: "2024-2025"
+        date: "2024-Present"
         highlights:
           - "Implemented LiDAR place recognition using vision foundation models."
           - "Implemented forest localization using inter-tree geometric matching."

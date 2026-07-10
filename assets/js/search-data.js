@@ -213,6 +213,9 @@ ninja.data = [{
           section: "News",},{id: "news-attended-icros-2026-in-daegu-korea",
           title: 'Attended ICROS 2026 in Daegu, Korea.',
           description: "",
+          section: "News",},{id: "news-attended-icml-2026-in-seoul-korea",
+          title: 'Attended ICML 2026 in Seoul, Korea.',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',

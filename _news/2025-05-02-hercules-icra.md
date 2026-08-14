@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **HeRCULES** at **ICRA 2025** (2nd author).
+Published **HeRCULES** at the **IEEE International Conference on Robotics and Automation (ICRA) 2025** (2nd author).

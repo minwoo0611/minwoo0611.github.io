@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Presented **HeLiPR** at an **IROS 2023 Workshop** (1st author).
+Presented **HeLiPR** at an **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2023 Workshop** (1st author).

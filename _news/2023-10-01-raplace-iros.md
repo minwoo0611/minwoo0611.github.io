@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **RaPlace** at **IROS 2023** (2nd author).
+Published **RaPlace** at the **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2023** (2nd author).

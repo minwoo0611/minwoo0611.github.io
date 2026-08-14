@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Presented **Aerial-Ground Pointcloud Integration** at **ICRA LBR** (1st author).
+Presented **Aerial-Ground Pointcloud Integration** at the **IEEE International Conference on Robotics and Automation (ICRA) 2022 Late Breaking Results** (1st author).

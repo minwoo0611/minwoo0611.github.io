@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **GaRLIO** at **ICRA 2025** (3rd author).
+Published **GaRLIO** at the **IEEE International Conference on Robotics and Automation (ICRA) 2025** (3rd author).

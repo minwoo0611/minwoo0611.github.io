@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Presented **Robust LiDAR Object Detection** at an **ICRA 2024 Workshop** (2nd author).
+Presented **Robust LiDAR Object Detection** at an **IEEE International Conference on Robotics and Automation (ICRA) 2024 Workshop** (2nd author).

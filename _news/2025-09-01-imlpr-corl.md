@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **ImLPR** at **CoRL 2025** (1st author).
+Published **ImLPR** at the **Conference on Robot Learning (CoRL) 2025** (1st author).

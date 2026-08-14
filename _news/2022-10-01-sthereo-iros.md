@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **STheReO** at **IROS 2022** (2nd author).
+Published **STheReO** at the **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2022** (2nd author).

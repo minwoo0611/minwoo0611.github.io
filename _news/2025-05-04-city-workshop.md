@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Presented **The City that Never Settles** at an **ICRA 2025 Workshop** (4th author).
+Presented **The City that Never Settles** at an **IEEE International Conference on Robotics and Automation (ICRA) 2025 Workshop** (4th author).

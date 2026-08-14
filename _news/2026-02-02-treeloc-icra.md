@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **TreeLoc** at **ICRA 2026** (1st author).
+Published **TreeLoc** at the **IEEE International Conference on Robotics and Automation (ICRA) 2026** (1st author).

@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Presented **ConPR** at an **IROS 2023 Workshop** (2nd author).
+Presented **ConPR** at an **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2023 Workshop** (2nd author).

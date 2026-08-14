@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Presented **Radar-LiDAR Odometry** at an **IROS 2022 Workshop** (2nd author).
+Presented **Radar-LiDAR Odometry** at an **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2022 Workshop** (2nd author).

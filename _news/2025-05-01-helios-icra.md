@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **HeLiOS** at **ICRA 2025** (1st author).
+Published **HeLiOS** at the **IEEE International Conference on Robotics and Automation (ICRA) 2025** (1st author).

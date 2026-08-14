@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Presented **MA-LIO** at an **RSS 2023 Workshop** (1st author).
+Presented **MA-LIO** at a **Robotics: Science and Systems (RSS) 2023 Workshop** (1st author).

@@ -216,7 +216,7 @@ ninja.data = [{
           section: "News",},{id: "news-attended-icml-2026-in-seoul-korea",
           title: 'Attended ICML 2026 in Seoul, Korea.',
           description: "",
-          section: "News",},{id: "news-are-visual-place-recognition-models-recognizing-places-or-conditions-was-accepted-to-ieee-robotics-and-automation-letters-ra-l-arxiv-2nd-author",
+          section: "News",},{id: "news-are-visual-place-recognition-models-recognizing-places-or-conditions-was-accepted-to-ieee-robotics-and-automation-letters-ra-l-2nd-author",
           title: 'Are Visual Place Recognition Models Recognizing Places or Conditions? was accepted to IEEE...',
           description: "",
           section: "News",},{id: "news-elite-was-accepted-to-iccas-2026-corresponding-author",

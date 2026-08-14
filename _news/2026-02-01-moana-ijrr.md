@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **MOANA** in **IJRR** (10th author).
+Published **MOANA** in **The International Journal of Robotics Research (IJRR)** (10th author).

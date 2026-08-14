@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **LiDAR Odometry Survey** in **ISR** (2nd author).
+Published **LiDAR Odometry Survey** in **Intelligent Service Robotics (ISR)** (2nd author).

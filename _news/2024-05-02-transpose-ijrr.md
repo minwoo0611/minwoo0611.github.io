@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **TRansPose** in **IJRR** (5th author).
+Published **TRansPose** in **The International Journal of Robotics Research (IJRR)** (5th author).

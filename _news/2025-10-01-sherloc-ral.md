@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **SHeRLoc** in **RA-L** (2nd author).
+Published **SHeRLoc** in **IEEE Robotics and Automation Letters (RA-L)** (2nd author).

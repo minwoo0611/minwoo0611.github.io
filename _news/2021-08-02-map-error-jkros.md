@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **Map Error Measurement** in **JKROS** (2nd author).
+Published **Map Error Measurement** in **The Journal of Korea Robotics Society (JKROS)** (2nd author).

@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **Radar-LiDAR Calibration** in **ISR** (3rd author).
+Published **Radar-LiDAR Calibration** in **Intelligent Service Robotics (ISR)** (3rd author).

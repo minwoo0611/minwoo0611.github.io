@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **Geometrically-Constrained Radar-Inertial Odometry** in **RA-L** (3rd author).
+Published **Geometrically-Constrained Radar-Inertial Odometry** in **IEEE Robotics and Automation Letters (RA-L)** (3rd author).

@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **Robust 3D Object Detection** in **JKROS** (2nd author).
+Published **Robust 3D Object Detection** in **The Journal of Korea Robotics Society (JKROS)** (2nd author).

@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **HeLiPR** in **IJRR** (1st author).
+Published **HeLiPR** in **The International Journal of Robotics Research (IJRR)** (1st author).

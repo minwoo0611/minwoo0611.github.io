@@ -6,4 +6,4 @@ related_posts: false
 category: paper
 ---
 
-Published **IA-LIO-SAM** in **JKROS** (1st author).
+Published **IA-LIO-SAM** in **The Journal of Korea Robotics Society (JKROS)** (1st author).

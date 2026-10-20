@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-academic",
           title: "academic",
-          description: "Teaching assistant work and tutorials.",
+          description: "Invited talks, teaching assistant work, and tutorials.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/academic/";
@@ -216,14 +216,17 @@ ninja.data = [{
           section: "News",},{id: "news-attended-the-international-conference-on-machine-learning-icml-2026-in-seoul-korea",
           title: 'Attended the International Conference on Machine Learning (ICML) 2026 in Seoul, Korea.',
           description: "",
-          section: "News",},{id: "news-are-visual-place-recognition-models-recognizing-places-or-conditions-was-accepted-to-ieee-robotics-and-automation-letters-ra-l-2nd-author",
-          title: 'Are Visual Place Recognition Models Recognizing Places or Conditions? was accepted to IEEE...',
+          section: "News",},{id: "news-are-visual-place-recognition-models-recognizing-places-or-conditions-is-available-as-an-arxiv-preprint-2nd-author",
+          title: 'Are Visual Place Recognition Models Recognizing Places or Conditions? is available as an...',
           description: "",
           section: "News",},{id: "news-elite-was-accepted-to-the-international-conference-on-control-automation-and-systems-iccas-2026-corresponding-author",
           title: 'ELite++ was accepted to the International Conference on Control, Automation and Systems (ICCAS)...',
           description: "",
           section: "News",},{id: "news-attended-the-korean-conference-on-computer-vision-kccv-2026-at-bexco-busan-korea",
           title: 'Attended the Korean Conference on Computer Vision (KCCV) 2026 at BEXCO, Busan, Korea....',
+          description: "",
+          section: "News",},{id: "news-gave-an-invited-talk-on-treeloc-in-the-physical-ai-session-at-the-international-symposium-on-ai-convergence-and-applications-aica-2026-in-jeju-korea",
+          title: 'Gave an invited talk on TreeLoc++ in the Physical AI session at the...',
           description: "",
           section: "News",},{
       id: 'light-theme',

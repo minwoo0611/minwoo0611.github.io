@@ -2,7 +2,7 @@
 layout: page
 permalink: /academic/
 title: academic
-description: Teaching assistant work and tutorials.
+description: Invited talks, teaching assistant work, and tutorials.
 nav: true
 nav_order: 3
 ---
@@ -67,6 +67,25 @@ nav_order: 3
     }
   }
 </style>
+
+<section class="teaching-section">
+  <h2>Invited Talks</h2>
+  <div class="teaching-list">
+    <article class="teaching-entry">
+      <div class="teaching-date">Oct 15, 2026</div>
+      <div>
+        <div class="teaching-type">Invited Talk</div>
+        <h3 class="teaching-title">TreeLoc++: Robust 6-DoF LiDAR Localization in Forests with a Compact Digital Forest Inventory</h3>
+        <div class="teaching-meta">International Symposium on AI Convergence and Applications (AICA) 2026</div>
+        <ul class="teaching-details">
+          <li>Distinguished AI Research: Physical AI session.</li>
+          <li>Sheraton Ballroom 2, Jeju, Korea.</li>
+          <li><a href="https://aica.ictc.org/program_invited_physical#minwoo-jung" target="_blank" rel="noopener noreferrer">Program</a></li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
 
 <section class="teaching-section">
   <h2>Teaching Assistant</h2>

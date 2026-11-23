@@ -228,6 +228,9 @@ ninja.data = [{
           section: "News",},{id: "news-gave-an-invited-talk-on-treeloc-in-the-physical-ai-session-at-the-international-symposium-on-ai-convergence-and-applications-aica-2026-in-jeju-korea",
           title: 'Gave an invited talk on TreeLoc++ in the Physical AI session at the...',
           description: "",
+          section: "News",},{id: "news-attended-the-ieee-international-symposium-on-safety-security-and-rescue-robotics-ssrr-2026-in-incheon-korea",
+          title: 'Attended the IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR) 2026...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
